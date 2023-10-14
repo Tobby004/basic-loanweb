@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+nav ul {
+    margin: auto;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

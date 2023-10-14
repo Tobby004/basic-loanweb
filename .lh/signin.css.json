@@ -1,0 +1,122 @@
+{
+    "sourceFile": "signin.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 26,
+            "patches": [
+                {
+                    "date": 1686826618640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686826939004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n .signin-box{\n     margin: auto;\n     height: 220px;\n     width: 220px;\n-    background: #ac96ac;\n+    background: #9d6b9d;\n+    border-radius: 20px;\n } \n h3 {\n     text-align: center;\n     \n@@ -16,5 +17,14 @@\n }\n input{\n     height: 20px;\n     padding: 10px;\n+    border: none;\n }\n+button {\n+    margin-top: 15px;\n+    margin-left: 30px;\n+    height: 23px;\n+    border: none;\n+    border-radius:7px;\n+    color: blue;\n+}\n"
+                },
+                {
+                    "date": 1686834920061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,15 @@\n }\n .signin-box{\n     margin: auto;\n     height: 220px;\n-    width: 220px;\n+    width: 260px;\n     background: #9d6b9d;\n     border-radius: 20px;\n } \n h3 {\n     text-align: center;\n+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\n     \n }\n form {\n     margin-left: 20px;\n@@ -21,9 +22,9 @@\n     border: none;\n }\n button {\n     margin-top: 15px;\n-    margin-left: 30px;\n+    margin-left: 39px;\n     height: 23px;\n     border: none;\n     border-radius:7px;\n     color: blue;\n"
+                },
+                {
+                    "date": 1688280422124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,15 @@\n * {\n     box-sizing: border-box;\n }\n+.box {\n+    margin: auto;\n+    display: flex;\n+    height: 400px;\n+    width: 450px;\n+    background: cadetblue;\n+}\n+\n .signin-box{\n     margin: auto;\n     height: 220px;\n     width: 260px;\n@@ -22,10 +30,13 @@\n     border: none;\n }\n button {\n     margin-top: 15px;\n-    margin-left: 39px;\n+    margin-left: 69px;\n     height: 23px;\n     border: none;\n     border-radius:7px;\n     color: blue;\n }\n+p {\n+    text-align: center;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688280660801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     display: flex;\n     height: 400px;\n     width: 450px;\n     background: cadetblue;\n+    border-radius: 20px;\n }\n \n .signin-box{\n     margin: auto;\n@@ -24,11 +25,12 @@\n form {\n     margin-left: 20px;\n }\n input{\n-    height: 20px;\n+    height: 30px;\n     padding: 10px;\n     border: none;\n+    border-radius: 7px;\n }\n button {\n     margin-top: 15px;\n     margin-left: 69px;\n@@ -38,5 +40,6 @@\n     color: blue;\n }\n p {\n     text-align: center;\n+    color: cyan;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688387722437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,13 @@\n * {\n     box-sizing: border-box;\n }\n+body {\n+    background-image: url(loanbytee.jpg);\n+    background-size: cover;\n+    background-repeat: no-repeat;\n+\n+}\n .box {\n     margin: auto;\n     display: flex;\n     height: 400px;\n"
+                },
+                {
+                    "date": 1688387835598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,14 @@\n     background-repeat: no-repeat;\n \n }\n .box {\n-    margin: auto;\n+    margin-top: 200px;\n     display: flex;\n     height: 400px;\n     width: 450px;\n+    margin-left: auto;\n+    margin-right: auto;\n     background: cadetblue;\n     border-radius: 20px;\n }\n \n"
+                },
+                {
+                    "date": 1688634742251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n     margin-left: auto;\n     margin-right: auto;\n     background: cadetblue;\n     border-radius: 20px;\n+    border:  solid 0.5px blue;\n }\n \n .signin-box{\n     margin: auto;\n@@ -49,5 +50,13 @@\n }\n p {\n     text-align: center;\n     color: cyan;\n+}\n+\n+@media only screen and (max-width:450px) {\n+   .box {\n+    width: 380px;\n+    height: 330px;\n+   } \n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688657989910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,10 +51,90 @@\n p {\n     text-align: center;\n     color: cyan;\n }\n+.footer{\n+    background: rgb(126, 120, 129);\n+    width: 100%;\n+    padding: 20px 30px 20px;\n+}\n+.socialicon {\n+    display: flex;\n+    justify-content: center;\n+}\n+.socialicon a {\n+    text-decoration: none;\n+    padding: 10px;\n+    margin: 10px;\n+    background: #ffffff;\n+    border-radius: 40%;\n+}\n+.socialicon a i {\n+    font-size: 2em;\n+    color: black;\n+}\n+.footernav ul {\n+ display: flex;\n+ justify-content: center;\n+ list-style: none;\n+}\n+.footernav ul li a{\n+ color: #ffffff;\n+ margin: 20px;\n+ text-decoration: none;\n+ font-size: 1.3em;\n+}\n+.footerbottom {\n+    background-color: black;\n+    padding: 10px;\n+    text-align: center;\n+}\n+.footerbottom p {\n+    color:white\n+}\n \n+\n @media only screen and (max-width:450px) {\n+     body {\n+        overflow-x: hidden;\n+     }\n+    .nav-links {\n+        position: absolute;\n+        right: 0px;\n+        top: 5vh;\n+        height: 70vh;\n+        background: black;\n+        display: flex;\n+        gap: 10px;\n+        width: 50%;\n+        flex-direction: column;\n+        align-items: center;\n+        transform: translateX(100%);\n+        transition: transform 0.5s ease-in;\n+    }\n+    .nav-links li {\n+        opacity: 1;\n+    }\n+    .nav-links li :hover {\n+        transition: all 5s;\n+        color: red;\n+    }\n+    .burger {\n+        display: block;\n+        cursor: pointer;\n+    }\n+   .nav-active {\n+    transform: translateX(0%);\n+   }\n+   .footernav {\n+    flex-direction: column;\n+   }\n+   .footernav ul li {\n+    width: 100%;\n+    text-align: center;\n+    margin: 1opx;\n+   } \n+\n    .box {\n     width: 380px;\n     height: 330px;\n    } \n"
+                },
+                {
+                    "date": 1688659307848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,8 +52,9 @@\n     text-align: center;\n     color: cyan;\n }\n .footer{\n+    margin-top: 100px;\n     background: rgb(126, 120, 129);\n     width: 100%;\n     padding: 20px 30px 20px;\n }\n"
+                },
+                {
+                    "date": 1688660422598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,57 @@\n body {\n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n     background-repeat: no-repeat;\n+}\n+nav {\n+    display: flex;\n+    justify-content: space-around;\n+    align-items: center;\n+    min-height: 8vh;\n+    font-family: sans-serif;\n+    background: gray;\n+}\n+.logo {\n+    color: black;\n+    text-transform: uppercase;\n+    letter-spacing: 5px;\n+    font-size: 30px;\n+    margin-right: 100px;\n+    font-family: sans-serif ;\n+}\n+ .nav-links {\n+    display: flex;\n+    justify-content: space-around;\n+    width: 0;\n+    gap: 20px;\n+ }\n+.nav-links a {\n+    color: #ffffff;\n+     text-decoration: none;\n+     letter-spacing: 2px;\n+     font-weight: bold;\n+     font-size: 17px;\n+}\n+.nav-links li :hover {\n+    transition: all 3s;\n+    background: #ffffff;\n+    color: blue;\n+}\n+.nav-links li {\n+    list-style: none;\n+}\n+.burger div {\n+    width: 25px;\n+    height: 5px;\n+    background-color: #ffffff;\n+    margin: 5px;\n+    transition: all 0.3s ease-in;\n+}\n+.burger {\n+    display: none;\n+}\n \n-}\n .box {\n     margin-top: 200px;\n     display: flex;\n     height: 400px;\n"
+                },
+                {
+                    "date": 1688676838045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n * {\n     box-sizing: border-box;\n }\n body {\n+    margin: 0;\n+    padding: 0;\n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n     background-repeat: no-repeat;\n }\n@@ -71,8 +73,9 @@\n     height: 220px;\n     width: 260px;\n     background: #9d6b9d;\n     border-radius: 20px;\n+    border: solid 0.8px  red;\n } \n h3 {\n     text-align: center;\n     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\n"
+                },
+                {
+                    "date": 1688677574163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -155,9 +155,9 @@\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: 50%;\n+        width: ;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688677890833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,11 +50,12 @@\n     height: 5px;\n     background-color: #ffffff;\n     margin: 5px;\n     transition: all 0.3s ease-in;\n+    margin-left: 50px;\n }\n .burger {\n-    display: none;\n+    display: ;\n }\n \n .box {\n     margin-top: 200px;\n@@ -150,14 +151,14 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 5vh;\n+        top: 6vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: ;\n+        width: 50%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688677975275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,12 +50,12 @@\n     height: 5px;\n     background-color: #ffffff;\n     margin: 5px;\n     transition: all 0.3s ease-in;\n-    margin-left: 50px;\n+    margin-left: 90px;\n }\n .burger {\n-    display: ;\n+    display:none ;\n }\n \n .box {\n     margin-top: 200px;\n"
+                },
+                {
+                    "date": 1688678480373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,9 +144,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:450px) {\n+@media only screen and (max-width:850px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688679221818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,9 +144,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:850px) {\n+@media only screen and (max-width:550px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688713536632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,9 +144,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:550px) {\n+@media only screen and (max-width:767px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688714373433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,14 +151,14 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 6vh;\n+        top: 8vh;\n         height: 70vh;\n-        background: black;\n+        background: gray;\n         display: flex;\n         gap: 10px;\n-        width: 50%;\n+        width: 70%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n@@ -175,8 +175,9 @@\n         cursor: pointer;\n     }\n    .nav-active {\n     transform: translateX(0%);\n+    margin-top: 0px;\n    }\n    .footernav {\n     flex-direction: column;\n    }\n"
+                },
+                {
+                    "date": 1688721097224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,9 +144,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:767px) {\n+@media only screen and (max-width:400px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688730469259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,57 +7,54 @@\n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n     background-repeat: no-repeat;\n }\n-nav {\n+header {\n+    background-color: gray;\n+}\n+li {\n+    list-style: none;\n+}\n+a {\n+    color: white;\n+    text-decoration: none;\n+}\n+.navbar {\n+    min-height: 70px;\n     display: flex;\n-    justify-content: space-around;\n+    justify-content: space-between;\n     align-items: center;\n-    min-height: 8vh;\n-    font-family: sans-serif;\n-    background: gray;\n+    padding: 0 24px;\n }\n+.nav-menu {\n+    display: flex;\n+    justify-content: space-between;\n+    align-items: center;\n+    gap: 60px;\n+    letter-spacing: 3px;\n+}\n .logo {\n-    color: black;\n-    text-transform: uppercase;\n-    letter-spacing: 5px;\n-    font-size: 30px;\n-    margin-right: 100px;\n-    font-family: sans-serif ;\n+    font-size: 2rem;\n }\n- .nav-links {\n-    display: flex;\n-    justify-content: space-around;\n-    width: 0;\n-    gap: 20px;\n- }\n-.nav-links a {\n-    color: #ffffff;\n-     text-decoration: none;\n-     letter-spacing: 2px;\n-     font-weight: bold;\n-     font-size: 17px;\n+.nav-link{\n+    transition: 0.7s ease;\n }\n-.nav-links li :hover {\n-    transition: all 3s;\n-    background: #ffffff;\n-    color: blue;\n+.nav-link:hover {\n+    color: blueviolet;\n }\n-.nav-links li {\n-    list-style: none;\n+.burger {\n+    display: none;\n+    cursor: pointer;\n }\n-.burger div {\n+.bar{\n+    display: block;\n     width: 25px;\n-    height: 5px;\n-    background-color: #ffffff;\n-    margin: 5px;\n-    transition: all 0.3s ease-in;\n-    margin-left: 90px;\n+    height: 3px;\n+    margin: 5px auto;\n+    -webkit-transition: all 0.3s ease-in-out;\n+    transition: all 0.3s ease-in-out;\n+    background: white;\n }\n-.burger {\n-    display:none ;\n-}\n-\n .box {\n     margin-top: 200px;\n     display: flex;\n     height: 400px;\n@@ -144,41 +141,42 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:400px) {\n-     body {\n-        overflow-x: hidden;\n-     }\n-    .nav-links {\n-        position: absolute;\n-        right: 0px;\n-        top: 8vh;\n-        height: 70vh;\n-        background: gray;\n-        display: flex;\n-        gap: 10px;\n-        width: 70%;\n+@media(max-width:767px) {\n+    body {\n+        width: min-content;\n+    }\n+    .burger {\n+        display: block;\n+    }\n+    .burger.active .bar:nth-child(2) {\n+        opacity: 0;\n+    }\n+    .burger.active .bar:nth-child(1) {\n+       transform: translateY(8px)rotate(45deg);\n+    }\n+    .burger.active .bar:nth-child(3) {\n+        transform: translateY(-8px) rotate(-45deg);\n+    }\n+    .nav-menu {\n+        position:fixed;\n+        left: -100%;\n+        top: 7.5vh;\n+        gap: 0;\n         flex-direction: column;\n-        align-items: center;\n-        transform: translateX(100%);\n-        transition: transform 0.5s ease-in;\n+        background-color: gray;\n+        width: 80%;\n+        text-align: center;\n+        transition: 0.3s;\n     }\n-    .nav-links li {\n-        opacity: 1;\n+    .nav-item {\n+        margin: 16px 0;\n     }\n-    .nav-links li :hover {\n-        transition: all 5s;\n-        color: red;\n+    .nav-menu.active {\n+        left: 0;\n     }\n-    .burger {\n-        display: block;\n-        cursor: pointer;\n-    }\n-   .nav-active {\n-    transform: translateX(0%);\n-    margin-top: 0px;\n-   }\n+\n    .footernav {\n     flex-direction: column;\n    }\n    .footernav ul li {\n"
+                },
+                {
+                    "date": 1688732126141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,9 +160,9 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 7.5vh;\n+        top: 7vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n         width: 80%;\n"
+                },
+                {
+                    "date": 1688739020600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,11 +142,9 @@\n }\n \n \n @media(max-width:767px) {\n-    body {\n-        width: min-content;\n-    }\n+ \n     .burger {\n         display: block;\n     }\n     .burger.active .bar:nth-child(2) {\n"
+                },
+                {
+                    "date": 1688739236494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -162,9 +162,9 @@\n         top: 7vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n-        width: 80%;\n+        width: 100%;\n         text-align: center;\n         transition: 0.3s;\n     }\n     .nav-item {\n"
+                },
+                {
+                    "date": 1688744863998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -176,10 +176,10 @@\n \n    .footernav {\n     flex-direction: column;\n    }\n-   .footernav ul li {\n-    width: 100%;\n+   .footernav ul li a{\n+    width: 40%;\n     text-align: center;\n     margin: 1opx;\n    } \n \n"
+                },
+                {
+                    "date": 1688789471102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     background-size: cover;\n     background-repeat: no-repeat;\n }\n header {\n-    background-color: gray;\n+    background-color: blue;\n }\n li {\n     list-style: none;\n }\n"
+                },
+                {
+                    "date": 1689157476993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 7vh;\n+        top: 5vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n         width: 100%;\n"
+                }
+            ],
+            "date": 1686826618640,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\n.signin-box{\n    margin: auto;\n    height: 220px;\n    width: 220px;\n    background: #ac96ac;\n} \nh3 {\n    text-align: center;\n    \n}\nform {\n    margin-left: 20px;\n}\ninput{\n    height: 20px;\n    padding: 10px;\n}\n"
+        }
+    ]
+}

@@ -1,0 +1,578 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 140,
+            "patches": [
+                {
+                    "date": 1684425999664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1684426539544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,14 +24,15 @@\n     color: white;\n     font-family: Verdana, Geneva, Tahoma, sans-serif;\n }\n h3 {\n-    margin-top: 40px;\n+    margin-top: 70px;\n     color: whitesmoke;\n-    font-size: 22px;\n+    font-size: 32px;\n     font-weight: lighter;\n-    margin-left: 100px;\n+    margin-left: 60px;\n }\n+\n .container {\n     display: flex;\n }\n \n@@ -39,8 +40,9 @@\n     height: 290px;\n     width: 330px;\n     background: #ccca;\n     margin:auto;\n+    margin-top: 80px;\n     border-radius: 10px;\n     margin-bottom: 20px;\n }\n form {\n@@ -80,9 +82,9 @@\n section {\n     height:230px;\n     background-color: darkgrey;\n     text-align: center;\n-    margin-bottom: 100px;\n+    margin-top: 40px;\n }\n section h6 {\n     color: blue;\n     font-size: 20px;\n@@ -102,6 +104,7 @@\n }\n span button {\n     color: white;\n     background: none;\n+    height: 30px;\n     margin-left: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684426646645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,11 @@\n     background-size: cover;\n     background-repeat: round;\n }\n .logo {\n-    font-size: 20px;\n+    font-size: 30px;\n     color: white;\n+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n     position: absolute;\n }\n nav ul {\n     margin: auto;\n@@ -21,15 +22,16 @@\n nav a {\n     text-decoration: none;\n     padding: 1rem 1.5rem;\n     color: white;\n-    font-family: Verdana, Geneva, Tahoma, sans-serif;\n+    font-weight: bolder;\n+    font-family: Verdana, sans-serif;\n }\n h3 {\n     margin-top: 70px;\n     color: whitesmoke;\n     font-size: 32px;\n-    font-weight: lighter;\n+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;\n     margin-left: 60px;\n }\n \n .container {\n"
+                },
+                {
+                    "date": 1684428756446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n     color: blue;\n     text-align: left;\n }\n section {\n-    height:230px;\n+    height:290px;\n     background-color: darkgrey;\n     text-align: center;\n     margin-top: 40px;\n }\n@@ -108,5 +108,8 @@\n     color: white;\n     background: none;\n     height: 30px;\n     margin-left: 100px;\n+}\n+ion-icon {\n+  font-size: 30px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685009176365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,55 +33,9 @@\n     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;\n     margin-left: 60px;\n }\n \n-.container {\n-    display: flex;\n-}\n \n-.request-box {\n-    height: 290px;\n-    width: 330px;\n-    background: #ccca;\n-    margin:auto;\n-    margin-top: 80px;\n-    border-radius: 10px;\n-    margin-bottom: 20px;\n-}\n-form {\n-    width: 100%;\n-    margin-left: 20px;\n-    \n-}\n-form input{\n-    display: flex;\n-    margin-top: 10px;\n-    border-radius: 8px;\n-    border: none;\n-    width: 80%;\n-    padding: 8px;\n-}\n-input[type=\"button\"]{\n-    width: 100px;\n-    width: 80%;\n-    justify-content: center;\n-    font-size: 15px;\n-    color: white;\n-    background: lightseagreen;\n-}\n-h5 {\n-    text-align: center;\n-    font-size: 20px;\n-    font-weight: lighter;\n-}\n-div P {\n-    text-align: center;\n-    font-size: 15px;\n-}\n-form p {\n-    color: blue;\n-    text-align: left;\n-}\n section {\n     height:290px;\n     background-color: darkgrey;\n     text-align: center;\n"
+                },
+                {
+                    "date": 1685025823639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,14 +28,12 @@\n }\n h3 {\n     margin-top: 70px;\n     color: whitesmoke;\n-    font-size: 32px;\n-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;\n+    font-size: 35px;\n+    font-weight: lighter;\n     margin-left: 60px;\n }\n-\n-\n section {\n     height:290px;\n     background-color: darkgrey;\n     text-align: center;\n"
+                },
+                {
+                    "date": 1685533366836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,13 @@\n     color: white;\n     font-weight: bolder;\n     font-family: Verdana, sans-serif;\n }\n+nav a :hover{\n+    background: crimson;\n+   color: magenta;\n+   transition: all 2s;\n+}\n h3 {\n     margin-top: 70px;\n     color: whitesmoke;\n     font-size: 35px;\n"
+                },
+                {
+                    "date": 1685956824499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n .logo {\n     font-size: 30px;\n     color: white;\n     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n-    position: absolute;\n }\n nav ul {\n     margin: auto;\n     text-align: center;\n@@ -25,12 +24,12 @@\n     color: white;\n     font-weight: bolder;\n     font-family: Verdana, sans-serif;\n }\n-nav a :hover{\n+nav a:hover{\n     background: crimson;\n-   color: magenta;\n-   transition: all 2s;\n+    color: magenta;\n+    transition: 2s;\n }\n h3 {\n     margin-top: 70px;\n     color: whitesmoke;\n"
+                },
+                {
+                    "date": 1685961194271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     background-size: cover;\n     background-repeat: round;\n }\n .logo {\n+    position: absolute;\n     font-size: 30px;\n     color: white;\n     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n }\n@@ -24,13 +25,9 @@\n     color: white;\n     font-weight: bolder;\n     font-family: Verdana, sans-serif;\n }\n-nav a:hover{\n-    background: crimson;\n-    color: magenta;\n-    transition: 2s;\n-}\n+\n h3 {\n     margin-top: 70px;\n     color: whitesmoke;\n     font-size: 35px;\n"
+                },
+                {
+                    "date": 1685964504190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,15 @@\n }\n .logo {\n     position: absolute;\n     font-size: 30px;\n-    color: white;\n+    color: black;\n     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n }\n+nav {\n+    height: 70px;\n+    background: white;\n+}\n nav ul {\n     margin: auto;\n     text-align: center;\n }\n@@ -21,9 +25,9 @@\n }\n nav a {\n     text-decoration: none;\n     padding: 1rem 1.5rem;\n-    color: white;\n+    color: black;\n     font-weight: bolder;\n     font-family: Verdana, sans-serif;\n }\n \n"
+                },
+                {
+                    "date": 1685964575263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,11 +20,13 @@\n     margin: auto;\n     text-align: center;\n }\n nav li {\n+    \n     display: inline-block;\n }\n nav a {\n+    margin-top: 60px;\n     text-decoration: none;\n     padding: 1rem 1.5rem;\n     color: black;\n     font-weight: bolder;\n"
+                },
+                {
+                    "date": 1685964664732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n * {\n     box-sizing: border-box;\n }\n body {\n+    margin: 0;\n+    padding: 0;\n     background-image: url(loan.jpg);\n     background-size: cover;\n     background-repeat: round;\n }\n@@ -24,13 +26,12 @@\n     \n     display: inline-block;\n }\n nav a {\n-    margin-top: 60px;\n     text-decoration: none;\n     padding: 1rem 1.5rem;\n     color: black;\n-    font-weight: bolder;\n+    font-size: medium;\n     font-family: Verdana, sans-serif;\n }\n \n h3 {\n"
+                },
+                {
+                    "date": 1685975095744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n     box-sizing: border-box;\n }\n body {\n     margin: 0;\n-    padding: 0;\n     background-image: url(loan.jpg);\n     background-size: cover;\n     background-repeat: round;\n }\n@@ -41,9 +40,9 @@\n     font-weight: lighter;\n     margin-left: 60px;\n }\n section {\n-    height:290px;\n+    height:450px;\n     background-color: darkgrey;\n     text-align: center;\n     margin-top: 40px;\n }\n"
+                },
+                {
+                    "date": 1685975922045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n     background-size: cover;\n     background-repeat: round;\n }\n .logo {\n+    margin-left: 20px;\n     position: absolute;\n     font-size: 30px;\n     color: black;\n     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n"
+                },
+                {
+                    "date": 1686034967271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,8 @@\n     margin-left: 60px;\n }\n section {\n     height:450px;\n-    background-color: darkgrey;\n     text-align: center;\n     margin-top: 40px;\n }\n section h6 {\n"
+                },
+                {
+                    "date": 1686035650645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,12 +50,14 @@\n     color: blue;\n     font-size: 20px;\n     font-weight: lighter;\n     text-align: center;\n+    color: teal;\n }\n section p {\n     text-align: center;\n     font-size: 10px;\n+    color: tomato;\n }\n section div {\n     color: white;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1686228294055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,18 +46,18 @@\n     text-align: center;\n     margin-top: 40px;\n }\n section h6 {\n-    color: blue;\n-    font-size: 20px;\n+    color: yellow;\n+    font-size: 25px;\n     font-weight: lighter;\n     text-align: center;\n-    color: teal;\n+\n }\n section p {\n     text-align: center;\n-    font-size: 10px;\n-    color: tomato;\n+    font-size: 15px;\n+    color: yellow;\n }\n section div {\n     color: white;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1686820245688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,18 +46,18 @@\n     text-align: center;\n     margin-top: 40px;\n }\n section h6 {\n-    color: yellow;\n+    color: blue;\n     font-size: 25px;\n     font-weight: lighter;\n     text-align: center;\n \n }\n section p {\n     text-align: center;\n     font-size: 15px;\n-    color: yellow;\n+    color: darkblue;\n }\n section div {\n     color: white;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1686826618698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,14 +10,15 @@\n .logo {\n     margin-left: 20px;\n     position: absolute;\n     font-size: 30px;\n+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\n     color: black;\n-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n+    \n }\n nav {\n     height: 70px;\n-    background: white;\n+    background: rgb(231, 155, 155);\n }\n nav ul {\n     margin: auto;\n     text-align: center;\n"
+                },
+                {
+                    "date": 1686843848120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,5 +73,10 @@\n     margin-left: 100px;\n }\n ion-icon {\n   font-size: 30px;\n-}\n\\ No newline at end of file\n+}\n+.footer{\n+    height: 400px;\n+    background: rgb(126, 120, 129);\n+}\n+\n"
+                },
+                {
+                    "date": 1686917327127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     box-sizing: border-box;\n }\n body {\n     margin: 0;\n-    background-image: url(loan.jpg);\n+    background-image: url(tee\\ loan.jpg);\n     background-size: cover;\n     background-repeat: round;\n }\n .logo {\n"
+                },
+                {
+                    "date": 1688280660823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n }\n section p {\n     text-align: center;\n     font-size: 15px;\n-    color: darkblue;\n+    color: cyan;\n }\n section div {\n     color: white;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1688386960512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,21 +2,24 @@\n     box-sizing: border-box;\n }\n body {\n     margin: 0;\n+    padding: 0;\n     background-image: url(tee\\ loan.jpg);\n     background-size: cover;\n     background-repeat: round;\n }\n .logo {\n+    padding-top: 20px;\n     margin-left: 20px;\n     position: absolute;\n     font-size: 30px;\n     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\n     color: black;\n     \n }\n nav {\n+    padding-top: 20px;\n     height: 70px;\n     background: rgb(231, 155, 155);\n }\n nav ul {\n"
+                },
+                {
+                    "date": 1688387459843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n }\n body {\n     margin: 0;\n     padding: 0;\n-    background-image: url(tee\\ loan.jpg);\n+    background-image: url(loanbytee.jpg);\n     background-size: cover;\n     background-repeat: round;\n }\n .logo {\n"
+                },
+                {
+                    "date": 1688387722465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n     text-align: center;\n     margin-top: 40px;\n }\n section h6 {\n-    color: blue;\n+    color: #ffffff;\n     font-size: 25px;\n     font-weight: lighter;\n     text-align: center;\n \n"
+                },
+                {
+                    "date": 1688542575956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,4 +82,15 @@\n     height: 400px;\n     background: rgb(126, 120, 129);\n }\n \n+@media only screen and (max-width:450px) {\n+    nav {\n+        padding: 0;\n+    }\n+    \n+    section {\n+        height: 200px;\n+        \n+    }\n+\n+}\n"
+                },
+                {
+                    "date": 1688542730671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,13 +84,18 @@\n }\n \n @media only screen and (max-width:450px) {\n     nav {\n-        padding: 0;\n+        padding: ;\n     }\n     \n     section {\n         height: 200px;\n-        \n+        width: 200px;\n     }\n-\n+    section div {\n+        padding: 10px;\n+        margin: 3px;\n+        color: blue;\n+        display: block;\n+    }\n }\n"
+                },
+                {
+                    "date": 1688542797737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,18 +84,18 @@\n }\n \n @media only screen and (max-width:450px) {\n     nav {\n-        padding: ;\n+        padding:0px ;\n     }\n     \n     section {\n         height: 200px;\n-        width: 200px;\n+        width: ;\n     }\n     section div {\n         padding: 10px;\n         margin: 3px;\n         color: blue;\n-        display: block;\n+        display:flex;\n     }\n }\n"
+                },
+                {
+                    "date": 1688542869239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,13 +89,13 @@\n     }\n     \n     section {\n         height: 200px;\n-        width: ;\n+        width:100% ;\n     }\n     section div {\n         padding: 10px;\n         margin: 3px;\n         color: blue;\n-        display:flex;\n+        display:inline-block;\n     }\n }\n"
+                },
+                {
+                    "date": 1688543421298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,8 +94,20 @@\n     }\n     section div {\n         padding: 10px;\n         margin: 3px;\n-        color: blue;\n         display:inline-block;\n     }\n+    section h6 {\n+        font-size: 12px;\n+        font-family: sans-serif;\n+    }\n+    section p {\n+        font-size: 10px;\n+        font-family: sans-serif;\n+    }\n+\n+    h3 {\n+        font-size: 20px;\n+        font-family: sans-serif;\n+    }\n }\n"
+                },
+                {
+                    "date": 1688544504151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,8 +85,9 @@\n \n @media only screen and (max-width:450px) {\n     nav {\n         padding:0px ;\n+        display: none;\n     }\n     \n     section {\n         height: 200px;\n"
+                },
+                {
+                    "date": 1688544556403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,8 +87,11 @@\n     nav {\n         padding:0px ;\n         display: none;\n     }\n+    .logo {\n+        display: none;\n+    }\n     \n     section {\n         height: 200px;\n         width:100% ;\n"
+                },
+                {
+                    "date": 1688544637923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,13 +85,18 @@\n \n @media only screen and (max-width:450px) {\n     nav {\n         padding:0px ;\n-        display: none;\n+     \n     }\n     .logo {\n-        display: none;\n+        \n     }\n+    nav a {\n+        float: none;\n+        display: block;\n+      }\n+    }\n     \n     section {\n         height: 200px;\n         width:100% ;\n"
+                },
+                {
+                    "date": 1688544682140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,10 +94,10 @@\n     nav a {\n         float: none;\n         display: block;\n       }\n-    }\n     \n+    \n     section {\n         height: 200px;\n         width:100% ;\n     }\n"
+                },
+                {
+                    "date": 1688549866397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,27 @@\n .footer{\n     height: 400px;\n     background: rgb(126, 120, 129);\n }\n+.menu-toggle span {\n+    height: 5px;\n+    transition: all 0.3s ease-in-out;\n+}\n+.menu-toggle input:checked ~ .menu-btn span:nth-child(2) {\n+    opacity: 0;\n+}\n+.menu-toggle input:checked ~ .menu-btn span:nth-child(3){\n+    transform: translateY(8px) rotate(45deg);\n+}\n+.menu-toggle input:checked ~ .menu-btn span:nth-child(1) {\n+    transform: translateY(-8px) rotate(-45deg);\n+}\n \n+\n+\n+\n+\n+\n @media only screen and (max-width:450px) {\n     nav {\n         padding:0px ;\n      \n"
+                },
+                {
+                    "date": 1688549947372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,21 +81,8 @@\n .footer{\n     height: 400px;\n     background: rgb(126, 120, 129);\n }\n-.menu-toggle span {\n-    height: 5px;\n-    transition: all 0.3s ease-in-out;\n-}\n-.menu-toggle input:checked ~ .menu-btn span:nth-child(2) {\n-    opacity: 0;\n-}\n-.menu-toggle input:checked ~ .menu-btn span:nth-child(3){\n-    transform: translateY(8px) rotate(45deg);\n-}\n-.menu-toggle input:checked ~ .menu-btn span:nth-child(1) {\n-    transform: translateY(-8px) rotate(-45deg);\n-}\n \n \n \n \n"
+                },
+                {
+                    "date": 1688550350724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,9 +86,8 @@\n \n \n \n \n-\n @media only screen and (max-width:450px) {\n     nav {\n         padding:0px ;\n      \n@@ -123,5 +122,8 @@\n     h3 {\n         font-size: 20px;\n         font-family: sans-serif;\n     }\n+    ion-icon{\n+        font-size: 20px;\n+    }\n }\n"
+                },
+                {
+                    "date": 1688551088154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,9 +78,9 @@\n ion-icon {\n   font-size: 30px;\n }\n .footer{\n-    height: 400px;\n+    height: 300px;\n     background: rgb(126, 120, 129);\n }\n \n \n@@ -95,9 +95,8 @@\n     .logo {\n         \n     }\n     nav a {\n-        float: none;\n         display: block;\n       }\n     \n     \n"
+                },
+                {
+                    "date": 1688551753739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,11 @@\n     color: black;\n     font-size: medium;\n     font-family: Verdana, sans-serif;\n }\n+nav img {\n+    height: 15px;\n+}\n \n h3 {\n     margin-top: 70px;\n     color: whitesmoke;\n"
+                },
+                {
+                    "date": 1688552095300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,10 +36,15 @@\n     color: black;\n     font-size: medium;\n     font-family: Verdana, sans-serif;\n }\n-nav img {\n-    height: 15px;\n+.menu-btn  {\n+    height: 25px;\n+    position: absolute;\n+    top: 30px;\n+    right: 60px;\n+    width: 20px;\n+    cursor: pointer;\n }\n \n h3 {\n     margin-top: 70px;\n"
+                },
+                {
+                    "date": 1688552700934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,11 +40,12 @@\n .menu-btn  {\n     height: 25px;\n     position: absolute;\n     top: 30px;\n-    right: 60px;\n+    right: 70px;\n     width: 20px;\n     cursor: pointer;\n+   \n }\n \n h3 {\n     margin-top: 70px;\n"
+                },
+                {
+                    "date": 1688552736417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,14 +37,15 @@\n     font-size: medium;\n     font-family: Verdana, sans-serif;\n }\n .menu-btn  {\n-    height: 25px;\n+    height: 35px;\n     position: absolute;\n     top: 30px;\n     right: 70px;\n     width: 20px;\n     cursor: pointer;\n+    background: black;\n    \n }\n \n h3 {\n"
+                },
+                {
+                    "date": 1688558663337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,48 +7,30 @@\n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n     background-repeat: round;\n }\n+nav {\n+    display: flex;\n+    justify-content: space-around;\n+    align-items: center;\n+    min-height: 8vh;\n+    font-family: sans-serif;\n+    background: #ffffff;\n+}\n .logo {\n-    padding-top: 20px;\n-    margin-left: 20px;\n-    position: absolute;\n+    color: blue;\n+    text-transform: uppercase;\n+    letter-spacing: 5px;\n     font-size: 30px;\n-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\n-    color: black;\n-    \n }\n-nav {\n-    padding-top: 20px;\n-    height: 70px;\n-    background: rgb(231, 155, 155);\n-}\n-nav ul {\n-    margin: auto;\n-    text-align: center;\n-}\n-nav li {\n-    \n-    display: inline-block;\n-}\n-nav a {\n-    text-decoration: none;\n-    padding: 1rem 1.5rem;\n-    color: black;\n-    font-size: medium;\n-    font-family: Verdana, sans-serif;\n-}\n-.menu-btn  {\n-    height: 35px;\n-    position: absolute;\n-    top: 30px;\n-    right: 70px;\n-    width: 20px;\n-    cursor: pointer;\n-    background: black;\n-   \n-}\n+ .nav-links {\n+    display: flex;\n+    justify-content: space-around;\n+    width: 30%;\n+ }\n \n+\n+\n h3 {\n     margin-top: 70px;\n     color: whitesmoke;\n     font-size: 35px;\n"
+                },
+                {
+                    "date": 1688558761746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,10 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width: 30%;\n+    padding: 10px;\n+    gap: 20px;\n  }\n \n \n \n"
+                },
+                {
+                    "date": 1688558841187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    padding: 10px;\n-    gap: 20px;\n+    gap: 40px;\n+    \n  }\n \n \n \n"
+                },
+                {
+                    "date": 1688559626219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     justify-content: space-around;\n     align-items: center;\n     min-height: 8vh;\n     font-family: sans-serif;\n-    background: #ffffff;\n+    background: gray;\n }\n .logo {\n     color: blue;\n     text-transform: uppercase;\n@@ -25,13 +25,30 @@\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n     gap: 40px;\n-    \n  }\n+.nav-links a {\n+    color: #ffffff;\n+     text-decoration: none;\n+     letter-spacing: 2px;\n+     font-weight: bold;\n+     font-size: 14px;\n+}\n+.nav-links li {\n+    list-style: none;\n+}\n+.burger div {\n+    width: 25px;\n+    height: 5px;\n+    background-color: #ffffff;\n+    margin: 5px;\n+}\n \n \n \n+\n+\n h3 {\n     margin-top: 70px;\n     color: whitesmoke;\n     font-size: 35px;\n"
+                },
+                {
+                    "date": 1688560388432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,9 @@\n span button {\n     color: white;\n     background: none;\n     height: 30px;\n-    margin-left: 100px;\n+    margin-left: 50px;\n }\n ion-icon {\n   font-size: 30px;\n }\n"
+                },
+                {
+                    "date": 1688561178526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,13 +42,12 @@\n     height: 5px;\n     background-color: #ffffff;\n     margin: 5px;\n }\n+.burger {\n+    display: none;\n+}\n \n-\n-\n-\n-\n h3 {\n     margin-top: 70px;\n     color: whitesmoke;\n     font-size: 35px;\n@@ -97,18 +96,25 @@\n \n \n \n @media only screen and (max-width:450px) {\n-    nav {\n-        padding:0px ;\n-     \n+    .nav-links {\n+        width: 60%;\n     }\n-    .logo {\n-        \n+     body {\n+        overflow: hidden;\n+     }\n+    .nav-links {\n+        position: absolute;\n+        right: 0px;\n+        height: 60vh;\n+        background: grey;\n+        display: flex;\n+        flex-direction: column;\n+        align-items: center;\n+        transform: translateX(100%);\n     }\n-    nav a {\n-        display: block;\n-      }\n+\n     \n     \n     section {\n         height: 200px;\n"
+                },
+                {
+                    "date": 1688561443627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n     .nav-links {\n         width: 60%;\n     }\n      body {\n-        overflow: hidden;\n+        overflow-x : hidden;\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n@@ -112,11 +112,16 @@\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n     }\n+    .nav-links li {\n+        opacity: 0;\n+    }\n+    .burger {\n+        display: block;\n+    }\n \n     \n-    \n     section {\n         height: 200px;\n         width:100% ;\n     }\n"
+                },
+                {
+                    "date": 1688561875459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,16 +111,20 @@\n         display: flex;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n+        transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n         opacity: 0;\n     }\n     .burger {\n         display: block;\n+        cursor: pointer;\n     }\n-\n+   .nav-active {\n+    transform: translateX(0%);\n+   }\n     \n     section {\n         height: 200px;\n         width:100% ;\n"
+                },
+                {
+                    "date": 1688565722704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,8 +83,12 @@\n     background: none;\n     height: 30px;\n     margin-left: 50px;\n }\n+span button a{\n+    width: 200%;\n+}\n+\n ion-icon {\n   font-size: 30px;\n }\n .footer{\n@@ -149,5 +153,6 @@\n     }\n     ion-icon{\n         font-size: 20px;\n     }\n+    span\n }\n"
+                },
+                {
+                    "date": 1688566002674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,18 +77,8 @@\n     margin: 10px;\n     padding: 20px;\n     background: blue;\n }\n-span button {\n-    color: white;\n-    background: none;\n-    height: 30px;\n-    margin-left: 50px;\n-}\n-span button a{\n-    width: 200%;\n-}\n-\n ion-icon {\n   font-size: 30px;\n }\n .footer{\n@@ -118,9 +108,9 @@\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n-        opacity: 0;\n+        opacity: 1;\n     }\n     .burger {\n         display: block;\n         cursor: pointer;\n"
+                },
+                {
+                    "date": 1688566083103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,18 +99,18 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        height: 60vh;\n+        height: 80vh;\n         background: grey;\n         display: flex;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n-        opacity: 1;\n+        opacity: 0;\n     }\n     .burger {\n         display: block;\n         cursor: pointer;\n"
+                },
+                {
+                    "date": 1688566206605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,11 +41,12 @@\n     width: 25px;\n     height: 5px;\n     background-color: #ffffff;\n     margin: 5px;\n+    margin-left: 90px;\n }\n .burger {\n-    display: none;\n+    display: ;\n }\n \n h3 {\n     margin-top: 70px;\n@@ -91,9 +92,9 @@\n \n \n @media only screen and (max-width:450px) {\n     .nav-links {\n-        width: 60%;\n+        width: 90%;\n     }\n      body {\n         overflow-x : hidden;\n      }\n@@ -108,9 +109,9 @@\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n-        opacity: 0;\n+        opacity: 2;\n     }\n     .burger {\n         display: block;\n         cursor: pointer;\n@@ -143,6 +144,6 @@\n     }\n     ion-icon{\n         font-size: 20px;\n     }\n-    span\n+\n }\n"
+                },
+                {
+                    "date": 1688566381365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,18 +100,18 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        height: 80vh;\n+        height: 90vh;\n         background: grey;\n         display: flex;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n-        opacity: 2;\n+        opacity: ;\n     }\n     .burger {\n         display: block;\n         cursor: pointer;\n"
+                },
+                {
+                    "date": 1688566432145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        height: 90vh;\n+        height: 200px;\n         background: grey;\n         display: flex;\n         flex-direction: column;\n         align-items: center;\n"
+                },
+                {
+                    "date": 1688566858489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,26 +92,26 @@\n \n \n @media only screen and (max-width:450px) {\n     .nav-links {\n-        width: 90%;\n+        width: 100%;\n     }\n      body {\n         overflow-x : hidden;\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        height: 200px;\n+        height: 98vh;\n         background: grey;\n         display: flex;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n-        opacity: ;\n+        opacity: 0;\n     }\n     .burger {\n         display: block;\n         cursor: pointer;\n"
+                },
+                {
+                    "date": 1688567529940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,10 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    gap: 40px;\n+    width: 30%;\n+    gap: 15px;\n  }\n .nav-links a {\n     color: #ffffff;\n      text-decoration: none;\n@@ -44,9 +45,9 @@\n     margin: 5px;\n     margin-left: 90px;\n }\n .burger {\n-    display: ;\n+    display: none;\n }\n \n h3 {\n     margin-top: 70px;\n@@ -100,8 +101,9 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n+        top: 8vh;\n         height: 98vh;\n         background: grey;\n         display: flex;\n         flex-direction: column;\n"
+                },
+                {
+                    "date": 1688567717650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n-        opacity: 0;\n+        opacity: 4;\n     }\n     .burger {\n         display: block;\n         cursor: pointer;\n"
+                },
+                {
+                    "date": 1688567842805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n     color: blue;\n     text-transform: uppercase;\n     letter-spacing: 5px;\n     font-size: 30px;\n+    margin-right: 100px;\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n@@ -105,15 +106,16 @@\n         top: 8vh;\n         height: 98vh;\n         background: grey;\n         display: flex;\n+        gap: 10px;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n-        opacity: 4;\n+        opacity: 2;\n     }\n     .burger {\n         display: block;\n         cursor: pointer;\n"
+                },
+                {
+                    "date": 1688567970814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,8 +107,9 @@\n         height: 98vh;\n         background: grey;\n         display: flex;\n         gap: 10px;\n+        width: 30%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688568046852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,13 +103,13 @@\n     .nav-links {\n         position: absolute;\n         right: 0px;\n         top: 8vh;\n-        height: 98vh;\n+        height: 92vh;\n         background: grey;\n         display: flex;\n         gap: 10px;\n-        width: 30%;\n+        width: 38%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688568107436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n     width: 30%;\n-    gap: 15px;\n+    gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n      text-decoration: none;\n@@ -43,9 +43,8 @@\n     width: 25px;\n     height: 5px;\n     background-color: #ffffff;\n     margin: 5px;\n-    margin-left: 90px;\n }\n .burger {\n     display: none;\n }\n"
+                },
+                {
+                    "date": 1688568140645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,9 +102,9 @@\n     .nav-links {\n         position: absolute;\n         right: 0px;\n         top: 8vh;\n-        height: 92vh;\n+        height: 70vh;\n         background: grey;\n         display: flex;\n         gap: 10px;\n         width: 38%;\n"
+                },
+                {
+                    "date": 1688568280976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,13 +16,14 @@\n     font-family: sans-serif;\n     background: gray;\n }\n .logo {\n-    color: blue;\n+    color: black;\n     text-transform: uppercase;\n     letter-spacing: 5px;\n     font-size: 30px;\n     margin-right: 100px;\n+    font-family: sans-serif ;\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n@@ -93,9 +94,9 @@\n \n \n @media only screen and (max-width:450px) {\n     .nav-links {\n-        width: 100%;\n+        width: 60%;\n     }\n      body {\n         overflow-x : hidden;\n      }\n"
+                },
+                {
+                    "date": 1688569014415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n \n \n \n \n-@media only screen and (max-width:450px) {\n+@media only screen and (max-width:390px) {\n     .nav-links {\n         width: 60%;\n     }\n      body {\n"
+                },
+                {
+                    "date": 1688569059054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,9 @@\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n-        opacity: 2;\n+        opacity: 0;\n     }\n     .burger {\n         display: block;\n         cursor: pointer;\n"
+                },
+                {
+                    "date": 1688569096068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,9 +107,9 @@\n         height: 70vh;\n         background: grey;\n         display: flex;\n         gap: 10px;\n-        width: 38%;\n+        width: 48%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688570376730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,14 +97,14 @@\n     .nav-links {\n         width: 60%;\n     }\n      body {\n-        overflow-x : hidden;\n+        overflow-x: hidden;\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 8vh;\n+        top: 3vh;\n         height: 70vh;\n         background: grey;\n         display: flex;\n         gap: 10px;\n@@ -114,9 +114,9 @@\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n-        opacity: 0;\n+        opacity: 1;\n     }\n     .burger {\n         display: block;\n         cursor: pointer;\n"
+                },
+                {
+                    "date": 1688570426393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,9 +102,9 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 3vh;\n+        top: 5vh;\n         height: 70vh;\n         background: grey;\n         display: flex;\n         gap: 10px;\n"
+                },
+                {
+                    "date": 1688571381830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,8 +44,9 @@\n     width: 25px;\n     height: 5px;\n     background-color: #ffffff;\n     margin: 5px;\n+    transition: all 0.3s ease-in;\n }\n .burger {\n     display: none;\n }\n@@ -124,8 +125,18 @@\n    .nav-active {\n     transform: translateX(0%);\n    }\n     \n+   .toggle .line1{\n+    transform: rotate(-45deg) translate(-5px,6px);\n+   }\n+\n+   .toggle .line2{\n+    opacity: 0;\n+   }\n+   toggle .line3{\n+   transform: rotate(45deg) translate(-5px,6px);\n+   }\n     section {\n         height: 200px;\n         width:100% ;\n     }\n"
+                },
+                {
+                    "date": 1688571523334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,9 +133,9 @@\n    .toggle .line2{\n     opacity: 0;\n    }\n    toggle .line3{\n-   transform: rotate(45deg) translate(-5px,6px);\n+   transform: rotate(45deg) translate(-5px,-6px);\n    }\n     section {\n         height: 200px;\n         width:100% ;\n"
+                },
+                {
+                    "date": 1688571560342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     transform: rotate(-45deg) translate(-5px,6px);\n    }\n \n    .toggle .line2{\n-    opacity: 0;\n+\n    }\n    toggle .line3{\n    transform: rotate(45deg) translate(-5px,-6px);\n    }\n"
+                },
+                {
+                    "date": 1688571603018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,19 +124,9 @@\n     }\n    .nav-active {\n     transform: translateX(0%);\n    }\n-    \n-   .toggle .line1{\n-    transform: rotate(-45deg) translate(-5px,6px);\n-   }\n \n-   .toggle .line2{\n-\n-   }\n-   toggle .line3{\n-   transform: rotate(45deg) translate(-5px,-6px);\n-   }\n     section {\n         height: 200px;\n         width:100% ;\n     }\n"
+                },
+                {
+                    "date": 1688578997755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n         position: absolute;\n         right: 0px;\n         top: 5vh;\n         height: 70vh;\n-        background: grey;\n+        background: black;\n         display: flex;\n         gap: 10px;\n         width: 48%;\n         flex-direction: column;\n"
+                },
+                {
+                    "date": 1688633009958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,13 @@\n      letter-spacing: 2px;\n      font-weight: bold;\n      font-size: 14px;\n }\n+.nav-links a :hover {\n+    transition: all 3s;\n+    background: #ffffff;\n+    color: blue;\n+}\n .nav-links li {\n     list-style: none;\n }\n .burger div {\n"
+                },
+                {
+                    "date": 1688633145257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,11 +34,11 @@\n     color: #ffffff;\n      text-decoration: none;\n      letter-spacing: 2px;\n      font-weight: bold;\n-     font-size: 14px;\n+     font-size: 17px;\n }\n-.nav-links a :hover {\n+.nav-links li :hover {\n     transition: all 3s;\n     background: #ffffff;\n     color: blue;\n }\n"
+                },
+                {
+                    "date": 1688633297133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n \n \n \n \n-@media only screen and (max-width:390px) {\n+@media only screen and (max-width:340px) {\n     .nav-links {\n         width: 60%;\n     }\n      body {\n@@ -122,8 +122,13 @@\n     }\n     .nav-links li {\n         opacity: 1;\n     }\n+    .nav-links li :hover {\n+        transition: all 5s;\n+        color: red;\n+        background: coral;\n+    }\n     .burger {\n         display: block;\n         cursor: pointer;\n     }\n"
+                },
+                {
+                    "date": 1688633348745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n \n \n @media only screen and (max-width:340px) {\n     .nav-links {\n-        width: 60%;\n+        width: 40%;\n     }\n      body {\n         overflow-x: hidden;\n      }\n"
+                },
+                {
+                    "date": 1688633407991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n \n \n \n \n-@media only screen and (max-width:340px) {\n+@media only screen and (max-width:380px) {\n     .nav-links {\n         width: 40%;\n     }\n      body {\n"
+                },
+                {
+                    "date": 1688633520425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n \n \n @media only screen and (max-width:380px) {\n     .nav-links {\n-        width: 40%;\n+        width: 0%;\n     }\n      body {\n         overflow-x: hidden;\n      }\n"
+                },
+                {
+                    "date": 1688633794050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,11 +98,11 @@\n \n \n \n \n-@media only screen and (max-width:380px) {\n+@media only screen and (max-width:450px) {\n     .nav-links {\n-        width: 0%;\n+        width: 60%;\n     }\n      body {\n         overflow-x: hidden;\n      }\n@@ -116,18 +116,17 @@\n         gap: 10px;\n         width: 48%;\n         flex-direction: column;\n         align-items: center;\n-        transform: translateX(100%);\n+        transform: translateX(80%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n         opacity: 1;\n     }\n     .nav-links li :hover {\n         transition: all 5s;\n         color: red;\n-        background: coral;\n     }\n     .burger {\n         display: block;\n         cursor: pointer;\n"
+                },
+                {
+                    "date": 1688633860669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,9 +116,9 @@\n         gap: 10px;\n         width: 48%;\n         flex-direction: column;\n         align-items: center;\n-        transform: translateX(80%);\n+        transform: translateX(0%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n         opacity: 1;\n"
+                },
+                {
+                    "date": 1688633903632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,17 +108,18 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n+        left: 0px;\n         top: 5vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n         width: 48%;\n         flex-direction: column;\n         align-items: center;\n-        transform: translateX(0%);\n+        transform: translateX(60%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n         opacity: 1;\n"
+                },
+                {
+                    "date": 1688634301246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,9 +108,9 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        left: 0px;\n+        left: 10px;\n         top: 5vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n"
+                },
+                {
+                    "date": 1688634333578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,10 +107,10 @@\n         overflow-x: hidden;\n      }\n     .nav-links {\n         position: absolute;\n-        right: 0px;\n-        left: 10px;\n+        right: none;\n+        left: none;\n         top: 5vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n"
+                },
+                {
+                    "date": 1688634357196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,9 +117,9 @@\n         gap: 10px;\n         width: 48%;\n         flex-direction: column;\n         align-items: center;\n-        transform: translateX(60%);\n+        transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n         opacity: 1;\n"
+                },
+                {
+                    "date": 1688634392149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,10 +107,9 @@\n         overflow-x: hidden;\n      }\n     .nav-links {\n         position: absolute;\n-        right: none;\n-        left: none;\n+        right: 0px;\n         top: 5vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n"
+                },
+                {
+                    "date": 1688634417642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n \n \n @media only screen and (max-width:450px) {\n     .nav-links {\n-        width: 60%;\n+        width: 0%;\n     }\n      body {\n         overflow-x: hidden;\n      }\n"
+                },
+                {
+                    "date": 1688634451451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n \n \n @media only screen and (max-width:450px) {\n     .nav-links {\n-        width: 0%;\n+        \n     }\n      body {\n         overflow-x: hidden;\n      }\n"
+                },
+                {
+                    "date": 1688634517667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,13 +99,10 @@\n \n \n \n @media only screen and (max-width:450px) {\n-    .nav-links {\n-        \n-    }\n      body {\n-        overflow-x: hidden;\n+        overflow: hidden;\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n"
+                },
+                {
+                    "date": 1688656494946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,16 +90,48 @@\n ion-icon {\n   font-size: 30px;\n }\n .footer{\n-    height: 300px;\n     background: rgb(126, 120, 129);\n+    width: 100%;\n+    padding: 70px 30px 20px;\n }\n+.socialicon {\n+    display: flex;\n+    justify-content: center;\n+}\n+.socialicon a {\n+    text-decoration: none;\n+    padding: 10px;\n+    margin: 10px;\n+    background: #ffffff;\n+    border-radius: 40%;\n+}\n+.socialicon a i {\n+    font-size: 2em;\n+    color: black;\n+}\n+.footernav ul {\n+ display: flex;\n+ justify-content: center;\n+ list-style: none;\n+}\n+.footernav ul li a{\n+ color: #ffffff;\n+ margin: 20px;\n+ text-decoration: none;\n+ font-size: 1.3em;\n+}\n+.footerbottom {\n+    background-color: black;\n+    padding: 10px;\n+    text-align: center;\n+}\n+.footerbottom p {\n+    color:white\n+}\n \n \n-\n-\n-\n @media only screen and (max-width:450px) {\n      body {\n         overflow: hidden;\n      }\n@@ -130,8 +162,16 @@\n     }\n    .nav-active {\n     transform: translateX(0%);\n    }\n+   .footernav {\n+    flex-direction: column;\n+   }\n+   .footernav ul li {\n+    width: 100%;\n+    text-align: center;\n+    margin: 1opx;\n+   } \n \n     section {\n         height: 200px;\n         width:100% ;\n"
+                },
+                {
+                    "date": 1688656917457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: 48%;\n+        width: 30%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688657141690,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width: 30%;\n+    width: %;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n"
+                },
+                {
+                    "date": 1688657186307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:450px) {\n+@media only screen and (max-width:550px) {\n      body {\n         overflow: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688657220157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: 30%;\n+        width: %;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688657297029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: %;\n+        width: 50%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688657989880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n }\n .footer{\n     background: rgb(126, 120, 129);\n     width: 100%;\n-    padding: 70px 30px 20px;\n+    padding: 20px 30px 20px;\n }\n .socialicon {\n     display: flex;\n     justify-content: center;\n@@ -132,9 +132,9 @@\n \n \n @media only screen and (max-width:550px) {\n      body {\n-        overflow: hidden;\n+        overflow-x: hidden;\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n"
+                },
+                {
+                    "date": 1688660422534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width: %;\n+    width: 0;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n"
+                },
+                {
+                    "date": 1688661028890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n   font-size: 30px;\n }\n .footer{\n     background: rgb(126, 120, 129);\n-    width: 100%;\n+    width: 70%;\n     padding: 20px 30px 20px;\n }\n .socialicon {\n     display: flex;\n"
+                },
+                {
+                    "date": 1688661132581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,14 +91,15 @@\n   font-size: 30px;\n }\n .footer{\n     background: rgb(126, 120, 129);\n-    width: 70%;\n+    width: 100%;\n     padding: 20px 30px 20px;\n }\n .socialicon {\n     display: flex;\n     justify-content: center;\n+   \n }\n .socialicon a {\n     text-decoration: none;\n     padding: 10px;\n@@ -170,8 +171,11 @@\n     width: 100%;\n     text-align: center;\n     margin: 1opx;\n    } \n+.socialicon {\n+    width: 70%;\n+}\n \n     section {\n         height: 200px;\n         width:100% ;\n"
+                },
+                {
+                    "date": 1688661185220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -173,8 +173,10 @@\n     margin: 1opx;\n    } \n .socialicon {\n     width: 70%;\n+    display: flex;\n+    justify-content: center;\n }\n \n     section {\n         height: 200px;\n"
+                },
+                {
+                    "date": 1688661270280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,9 +143,9 @@\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: 50%;\n+        width: ;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n@@ -171,13 +171,8 @@\n     width: 100%;\n     text-align: center;\n     margin: 1opx;\n    } \n-.socialicon {\n-    width: 70%;\n-    display: flex;\n-    justify-content: center;\n-}\n \n     section {\n         height: 200px;\n         width:100% ;\n"
+                },
+                {
+                    "date": 1688661326735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,9 +143,9 @@\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: ;\n+        width: 80%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688661424802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,18 +138,18 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 5vh;\n+        top: 9vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n         width: 80%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n-        transition: transform 0.5s ease-in;\n+        transition: transform 0.5s ease-in-out ;\n     }\n     .nav-links li {\n         opacity: 1;\n     }\n"
+                },
+                {
+                    "date": 1688661543561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,18 +138,18 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 9vh;\n+        top: 3vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n         width: 80%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n-        transition: transform 0.5s ease-in-out ;\n+        transition: transform 0.5s ease-in;\n     }\n     .nav-links li {\n         opacity: 1;\n     }\n"
+                },
+                {
+                    "date": 1688661616959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,10 +137,10 @@\n         overflow-x: hidden;\n      }\n     .nav-links {\n         position: absolute;\n-        right: 0px;\n-        top: 3vh;\n+        right: px;\n+        top: 7vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n"
+                },
+                {
+                    "date": 1688661666782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,9 @@\n         overflow-x: hidden;\n      }\n     .nav-links {\n         position: absolute;\n-        right: px;\n+        right: 0px;\n         top: 7vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n"
+                },
+                {
+                    "date": 1688661709775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,9 +138,9 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 7vh;\n+        top: 6vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n"
+                },
+                {
+                    "date": 1688677891062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width: 0;\n+    width: ;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n@@ -143,9 +143,9 @@\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: 80%;\n+        width: 50%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688677975367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,9 @@\n     width: 25px;\n     height: 5px;\n     background-color: #ffffff;\n     margin: 5px;\n+    margin-left: 90px;\n     transition: all 0.3s ease-in;\n }\n .burger {\n     display: none;\n"
+                },
+                {
+                    "date": 1688678480062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width: ;\n+    width:30% ;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n@@ -132,9 +132,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:550px) {\n+@media only screen and (max-width:850px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688678936863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -175,9 +175,9 @@\n    } \n \n     section {\n         height: 200px;\n-        width:100% ;\n+        width: ;\n     }\n     section div {\n         padding: 10px;\n         margin: 3px;\n"
+                },
+                {
+                    "date": 1688679222165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:850px) {\n+@media only screen and (max-width:550px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n@@ -175,9 +175,8 @@\n    } \n \n     section {\n         height: 200px;\n-        width: ;\n     }\n     section div {\n         padding: 10px;\n         margin: 3px;\n"
+                },
+                {
+                    "date": 1688682032020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -163,8 +163,9 @@\n         cursor: pointer;\n     }\n    .nav-active {\n     transform: translateX(0%);\n+    margin-top: -00px;\n    }\n    .footernav {\n     flex-direction: column;\n    }\n"
+                },
+                {
+                    "date": 1688682135513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,13 +144,13 @@\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: 50%;\n+        width: 70%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n-        transition: transform 0.5s ease-in;\n+        transition: transform 0.5s ease-out;\n     }\n     .nav-links li {\n         opacity: 1;\n     }\n"
+                },
+                {
+                    "date": 1688713537383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width:30% ;\n+    width:30%;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n@@ -132,9 +132,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:550px) {\n+@media only screen and (max-width:767px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688713656672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,9 +148,9 @@\n         width: 70%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n-        transition: transform 0.5s ease-out;\n+        transition: transform 0.5s ease;\n     }\n     .nav-links li {\n         opacity: 1;\n     }\n"
+                },
+                {
+                    "date": 1688714373666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,9 +141,9 @@\n         position: absolute;\n         right: 0px;\n         top: 6vh;\n         height: 70vh;\n-        background: black;\n+        background: gray;\n         display: flex;\n         gap: 10px;\n         width: 70%;\n         flex-direction: column;\n"
+                },
+                {
+                    "date": 1688721098107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:767px) {\n+@media only screen and (max-width:400px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688721168424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width:30%;\n+    width:;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n"
+                },
+                {
+                    "date": 1688721208548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n     height: 5px;\n     background-color: #ffffff;\n     margin: 5px;\n     margin-left: 90px;\n-    transition: all 0.3s ease-in;\n+    transition: all 0.3s ease;\n }\n .burger {\n     display: none;\n }\n"
+                },
+                {
+                    "date": 1688721618377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n }\n body {\n     margin: 0;\n     padding: 0;\n-    background-image: url(loanbytee.jpg);\n+    background-image: url();\n     background-size: cover;\n     background-repeat: round;\n }\n nav {\n"
+                },
+                {
+                    "date": 1688721704838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .nav-links li {\n     list-style: none;\n }\n .burger div {\n-    width: 25px;\n+    width: px;\n     height: 5px;\n     background-color: #ffffff;\n     margin: 5px;\n     margin-left: 90px;\n"
+                },
+                {
+                    "date": 1688721884466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,13 +3,14 @@\n }\n body {\n     margin: 0;\n     padding: 0;\n-    background-image: url();\n+    background-image: url(loanbytee.jpg);\n     background-size: cover;\n     background-repeat: round;\n }\n nav {\n+    padding: 0;\n     display: flex;\n     justify-content: space-around;\n     align-items: center;\n     min-height: 8vh;\n@@ -45,9 +46,9 @@\n .nav-links li {\n     list-style: none;\n }\n .burger div {\n-    width: px;\n+    width: 25px;\n     height: 5px;\n     background-color: #ffffff;\n     margin: 5px;\n     margin-left: 90px;\n@@ -137,8 +138,9 @@\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n+        padding: 0;\n         position: absolute;\n         right: 0px;\n         top: 6vh;\n         height: 70vh;\n"
+                },
+                {
+                    "date": 1688725201012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width:;\n+    width: 50px;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n@@ -138,9 +138,8 @@\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n-        padding: 0;\n         position: absolute;\n         right: 0px;\n         top: 6vh;\n         height: 70vh;\n"
+                },
+                {
+                    "date": 1688728310552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,58 +7,54 @@\n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n     background-repeat: round;\n }\n-nav {\n-    padding: 0;\n+header {\n+    background-color: gray;\n+}\n+li {\n+    list-style: none;\n+}\n+a {\n+    color: white;\n+    text-decoration: none;\n+}\n+.navbar {\n+    min-height: 70px;\n     display: flex;\n-    justify-content: space-around;\n+    justify-content: space-between;\n     align-items: center;\n-    min-height: 8vh;\n-    font-family: sans-serif;\n-    background: gray;\n+    padding: 0 24px;\n }\n-.logo {\n-    color: black;\n-    text-transform: uppercase;\n-    letter-spacing: 5px;\n-    font-size: 30px;\n-    margin-right: 100px;\n-    font-family: sans-serif ;\n-}\n- .nav-links {\n+.nav-menu {\n     display: flex;\n-    justify-content: space-around;\n-    width: 50px;\n-    gap: 20px;\n- }\n-.nav-links a {\n-    color: #ffffff;\n-     text-decoration: none;\n-     letter-spacing: 2px;\n-     font-weight: bold;\n-     font-size: 17px;\n+    justify-content: space-between;\n+    align-items: center;\n+    gap: 60px;\n+    letter-spacing: 3px;\n }\n-.nav-links li :hover {\n-    transition: all 3s;\n-    background: #ffffff;\n-    color: blue;\n+.logo {\n+    font-size: 2rem;\n }\n-.nav-links li {\n-    list-style: none;\n+.nav-link{\n+    transition: 0.7s ease;\n }\n-.burger div {\n-    width: 25px;\n-    height: 5px;\n-    background-color: #ffffff;\n-    margin: 5px;\n-    margin-left: 90px;\n-    transition: all 0.3s ease;\n+.nav-link:hover {\n+    color: blueviolet;\n }\n .burger {\n     display: none;\n+    cursor: pointer;\n }\n-\n+.bar{\n+    display: block;\n+    width: 25px;\n+    height: 3px;\n+    margin: 5px auto;\n+    -webkit-transition: all 0.3s ease-in-out;\n+    transition: all 0.3s ease-in-out;\n+    background: white;\n+}\n h3 {\n     margin-top: 70px;\n     color: whitesmoke;\n     font-size: 35px;\n@@ -131,43 +127,41 @@\n }\n .footerbottom p {\n     color:white\n }\n-\n-\n-@media only screen and (max-width:400px) {\n-     body {\n-        overflow-x: hidden;\n-     }\n-    .nav-links {\n-        position: absolute;\n-        right: 0px;\n-        top: 6vh;\n-        height: 70vh;\n-        background: gray;\n-        display: flex;\n-        gap: 10px;\n-        width: 70%;\n+@media(max-width:767px) {\n+    .burger {\n+        display: block;\n+    }\n+    .burger.active .bar:nth-child(2) {\n+        opacity: 0;\n+    }\n+    .burger.active .bar:nth-child(1) {\n+       transform: translateY(8px)rotate(45deg);\n+    }\n+    .burger.active .bar:nth-child(3) {\n+        transform: translateY(-8px) rotate(-45deg);\n+    }\n+    .nav-menu {\n+        position:fixed;\n+        left: -100%;\n+        top: 70px;\n+        gap: 0;\n         flex-direction: column;\n-        align-items: center;\n-        transform: translateX(100%);\n-        transition: transform 0.5s ease;\n+        background-color: gray;\n+        width: 100%;\n+        text-align: center;\n+        transition: 0.3s;\n     }\n-    .nav-links li {\n-        opacity: 1;\n+    .nav-item {\n+        margin: 16px 0;\n     }\n-    .nav-links li :hover {\n-        transition: all 5s;\n-        color: red;\n+    .nav-menu.active {\n+        left: 0;\n     }\n-    .burger {\n-        display: block;\n-        cursor: pointer;\n-    }\n-   .nav-active {\n-    transform: translateX(0%);\n-    margin-top: -00px;\n-   }\n+}\n+\n+\n    .footernav {\n     flex-direction: column;\n    }\n    .footernav ul li {\n"
+                },
+                {
+                    "date": 1688728422549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,18 +157,16 @@\n     }\n     .nav-menu.active {\n         left: 0;\n     }\n-}\n \n-\n    .footernav {\n     flex-direction: column;\n    }\n    .footernav ul li {\n     width: 100%;\n     text-align: center;\n-    margin: 1opx;\n+    margin: 10px;\n    } \n \n     section {\n         height: 200px;\n"
+                },
+                {
+                    "date": 1688728542453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,8 +127,10 @@\n }\n .footerbottom p {\n     color:white\n }\n+\n+\n @media(max-width:767px) {\n     .burger {\n         display: block;\n     }\n@@ -162,9 +164,9 @@\n    .footernav {\n     flex-direction: column;\n    }\n    .footernav ul li {\n-    width: 100%;\n+    width: 70%;\n     text-align: center;\n     margin: 10px;\n    } \n \n"
+                },
+                {
+                    "date": 1688728798665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,9 +89,9 @@\n   font-size: 30px;\n }\n .footer{\n     background: rgb(126, 120, 129);\n-    width: 100%;\n+    width: %;\n     padding: 20px 30px 20px;\n }\n .socialicon {\n     display: flex;\n"
+                },
+                {
+                    "date": 1688728853949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,9 +89,9 @@\n   font-size: 30px;\n }\n .footer{\n     background: rgb(126, 120, 129);\n-    width: %;\n+    width: 100%;\n     padding: 20px 30px 20px;\n }\n .socialicon {\n     display: flex;\n@@ -130,8 +130,11 @@\n }\n \n \n @media(max-width:767px) {\n+    body {\n+        width: fit-content;\n+    }\n     .burger {\n         display: block;\n     }\n     .burger.active .bar:nth-child(2) {\n"
+                },
+                {
+                    "date": 1688728919496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n \n \n @media(max-width:767px) {\n     body {\n-        width: fit-content;\n+        width: min-content;\n     }\n     .burger {\n         display: block;\n     }\n"
+                },
+                {
+                    "date": 1688730469951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,13 +148,13 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 70px;\n+        top: 7.5vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n-        width: 100%;\n+        width: 80%;\n         text-align: center;\n         transition: 0.3s;\n     }\n     .nav-item {\n"
+                },
+                {
+                    "date": 1688731991943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,9 +148,9 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 7.5vh;\n+        top: 7vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n         width: 80%;\n"
+                },
+                {
+                    "date": 1688732029800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,9 +148,9 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 7vh;\n+        top: 5vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n         width: 80%;\n"
+                },
+                {
+                    "date": 1688739020562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,11 +130,10 @@\n }\n \n \n @media(max-width:767px) {\n-    body {\n-        width: min-content;\n-    }\n+    \n+    \n     .burger {\n         display: block;\n     }\n     .burger.active .bar:nth-child(2) {\n"
+                },
+                {
+                    "date": 1688739236474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,9 +151,9 @@\n         top: 5vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n-        width: 80%;\n+        width: 100%;\n         text-align: center;\n         transition: 0.3s;\n     }\n     .nav-item {\n"
+                },
+                {
+                    "date": 1688744487259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,9 +166,9 @@\n    .footernav {\n     flex-direction: column;\n    }\n    .footernav ul li {\n-    width: 70%;\n+    width: 60%;\n     text-align: center;\n     margin: 10px;\n    } \n \n"
+                },
+                {
+                    "date": 1688744684174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,9 +166,9 @@\n    .footernav {\n     flex-direction: column;\n    }\n    .footernav ul li {\n-    width: 60%;\n+    width: 40%;\n     text-align: center;\n     margin: 10px;\n    } \n \n"
+                },
+                {
+                    "date": 1688744767882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -165,9 +165,9 @@\n \n    .footernav {\n     flex-direction: column;\n    }\n-   .footernav ul li {\n+   .footernav ul li  a{\n     width: 40%;\n     text-align: center;\n     margin: 10px;\n    } \n"
+                },
+                {
+                    "date": 1688789471080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     background-size: cover;\n     background-repeat: round;\n }\n header {\n-    background-color: gray;\n+    background-color: blue;\n }\n li {\n     list-style: none;\n }\n@@ -33,8 +33,9 @@\n     letter-spacing: 3px;\n }\n .logo {\n     font-size: 2rem;\n+    color: wheat;\n }\n .nav-link{\n     transition: 0.7s ease;\n }\n@@ -67,24 +68,29 @@\n     margin-top: 40px;\n }\n section h6 {\n     color: #ffffff;\n-    font-size: 25px;\n-    font-weight: lighter;\n+    font-size: 35px;\n+    font-weight: bold;\n     text-align: center;\n \n }\n section p {\n     text-align: center;\n-    font-size: 15px;\n-    color: cyan;\n+    font-size: 19px;\n+    color: white;\n }\n+section p:hover{\n+    color: blue;\n+    transition: 0.6s;\n+}\n section div {\n     color: white;\n     display: inline-block;\n     margin: 10px;\n     padding: 20px;\n-    background: blue;\n+    background: rgb(140, 27, 27);\n+    border-radius: 20px;\n }\n ion-icon {\n   font-size: 30px;\n }\n"
+                }
+            ],
+            "date": 1684425999664,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\nbody {\n    background-image: url(loan.jpg);\n    background-size: cover;\n    background-repeat: round;\n}\n.logo {\n    font-size: 20px;\n    color: white;\n    position: absolute;\n}\nnav ul {\n    margin: auto;\n    text-align: center;\n}\nnav li {\n    display: inline-block;\n}\nnav a {\n    text-decoration: none;\n    padding: 1rem 1.5rem;\n    color: white;\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n}\nh3 {\n    margin-top: 40px;\n    color: whitesmoke;\n    font-size: 22px;\n    font-weight: lighter;\n    margin-left: 100px;\n}\n.container {\n    display: flex;\n}\n\n.request-box {\n    height: 290px;\n    width: 330px;\n    background: #ccca;\n    margin:auto;\n    border-radius: 10px;\n    margin-bottom: 20px;\n}\nform {\n    width: 100%;\n    margin-left: 20px;\n    \n}\nform input{\n    display: flex;\n    margin-top: 10px;\n    border-radius: 8px;\n    border: none;\n    width: 80%;\n    padding: 8px;\n}\ninput[type=\"button\"]{\n    width: 100px;\n    width: 80%;\n    justify-content: center;\n    font-size: 15px;\n    color: white;\n    background: lightseagreen;\n}\nh5 {\n    text-align: center;\n    font-size: 20px;\n    font-weight: lighter;\n}\ndiv P {\n    text-align: center;\n    font-size: 15px;\n}\nform p {\n    color: blue;\n    text-align: left;\n}\nsection {\n    height:230px;\n    background-color: darkgrey;\n    text-align: center;\n    margin-bottom: 100px;\n}\nsection h6 {\n    color: blue;\n    font-size: 20px;\n    font-weight: lighter;\n    text-align: center;\n}\nsection p {\n    text-align: center;\n    font-size: 10px;\n}\nsection div {\n    color: white;\n    display: inline-block;\n    margin: 10px;\n    padding: 20px;\n    background: blue;\n}\nspan button {\n    color: white;\n    background: none;\n    margin-left: 100px;\n}"
+        }
+    ]
+}

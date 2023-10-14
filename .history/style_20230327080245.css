@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+.logo {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+}
+nav ul {
+    margin: auto;
+    text-align: center;
+    background-color: black;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    margin-top: 40px;
+    color: red;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-left: 100px;
+}
+button {
+    background: rgb(142, 255, 249);
+    color: blue;
+    border-radius: 20px;
+    margin-left:90px ;
+}
+.request-box {
+    height: 290px;
+    width: 330px;
+    background: #ccca;
+    margin:auto;
+    margin-bottom: 300px;
+    border-radius: 10px;
+}
+form {
+    width: 100%;
+    margin-left: 20px;
+    
+}
+form input{
+    display: flex;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+}
+input[type="button"]{
+    width: 100px;
+    font-size: 15px;
+    color: white;
+    background: lightseagreen;
+}
+h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+}
+div P {
+    text-align: center;
+    font-size: 15px;
+}
+form p {
+    color: blue;
+    text-align: left;
+}

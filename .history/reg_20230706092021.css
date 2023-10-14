@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    
+    background-image: url(loanbytee.jpg);
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: sans-serif;
+    background: gray;
+}
+.logo {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-right: 100px;
+    font-family: sans-serif ;
+}
+ .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 0;
+    gap: 20px;
+ }
+.nav-links a {
+    color: #ffffff;
+     text-decoration: none;
+     letter-spacing: 2px;
+     font-weight: bold;
+     font-size: 17px;
+}
+.nav-links li :hover {
+    transition: all 3s;
+    background: #ffffff;
+    color: blue;
+}
+.nav-links li {
+    list-style: none;
+}
+.burger div {
+    width: 25px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 5px;
+    transition: all 0.3s ease-in;
+}
+.burger {
+    display: none;
+}
+
+h5{
+    padding-top: 30px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.apply-box{
+    margin: auto;
+    height: 550px;
+    width: 350px;
+    background: #fffa;
+    border-radius: 20px;
+}
+
+form{
+     margin-left: 70px;
+}
+form input {
+    display: block;
+    margin-top: 8px;
+    border: none;
+    width: 60%;
+    height: 30px;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+button {
+    margin-top: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 7px;
+    border-color: blue;
+    margin-left: 16px;
+    height: 25px;
+    
+}
+button a {
+    text-decoration: none;
+}
+.footer{
+    margin-top: 100px;
+    background: rgb(126, 120, 129);
+    width: 100%;
+    padding: 20px 30px 20px;
+}
+.socialicon {
+    display: flex;
+    justify-content: center;
+}
+.socialicon a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 40%;
+}
+.socialicon a i {
+    font-size: 2em;
+    color: black;
+}
+.footernav ul {
+ display: flex;
+ justify-content: center;
+ list-style: none;
+}
+.footernav ul li a{
+ color: #ffffff;
+ margin: 20px;
+ text-decoration: none;
+ font-size: 1.3em;
+}
+.footerbottom {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.footerbottom p {
+    color:white
+}
+
+
+@media only screen and (max-width:550px) {
+     body {
+        overflow-x: hidden;
+     }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        top: 5vh;
+        height: 70vh;
+        background: black;
+        display: flex;
+        gap: 10px;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li {
+        opacity: 1;
+    }
+    .nav-links li :hover {
+        transition: all 5s;
+        color: red;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+   .nav-active {
+    transform: translateX(0%);
+   }
+   .footernav {
+    flex-direction: column;
+   }
+   .footernav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 1opx;
+   } 
+}

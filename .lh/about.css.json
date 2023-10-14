@@ -1,0 +1,354 @@
+{
+    "sourceFile": "about.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 84,
+            "patches": [
+                {
+                    "date": 1685966845295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1685966881978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n h1 {\n     text-align: center;\n }\n .container {\n+    margin: auto;\n     display: flex;\n     justify-content: space-between;\n     height: 300px;\n     width: 800px;\n"
+                },
+                {
+                    "date": 1685974438274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,11 +37,17 @@\n     width: 450px;\n     background: white;\n }\n .box h4 {\n+    margin-bottom:20px;\n     text-align: center;\n     font-size: 22px;\n     margin-left: 30px;\n }\n .box p {\n     text-align: center;\n+}\n+.contact-box{\n+    height: 400px;\n+    width: 600px;\n+    background: floralwhite;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685975095746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,12 @@\n *{\n     box-sizing: border-box;\n }\n+body {\n+    margin: 0;\n+    background: white;\n \n+}\n \n h1 {\n     text-align: center;\n }\n@@ -49,5 +53,12 @@\n .contact-box{\n     height: 400px;\n     width: 600px;\n     background: floralwhite;\n-}\n\\ No newline at end of file\n+}\n+.contact-box h3 {\n+    text-align: center;\n+}\n+.contact-box p {\n+    text-align: center;\n+}\n+.cob\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685975145858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,9 @@\n .box p {\n     text-align: center;\n }\n .contact-box{\n+    margin: auto;\n     height: 400px;\n     width: 600px;\n     background: floralwhite;\n }\n"
+                },
+                {
+                    "date": 1685975879593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,16 +50,22 @@\n .box p {\n     text-align: center;\n }\n .contact-box{\n+    display: ;\n+    justify-content: space-between;\n     margin: auto;\n     height: 400px;\n-    width: 600px;\n+    width: 650px;\n     background: floralwhite;\n }\n .contact-box h3 {\n     text-align: center;\n }\n .contact-box p {\n\\ No newline at end of file\n     text-align: center;\n }\n-.cob\n+.cob-1 {\n+    height: 200px;\n+    width: 300px;\n+    background: cornflowerblue;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685976540896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n }\n body {\n     margin: 0;\n     background: white;\n+    background-image: url(loan.jpg);\n \n }\n \n h1 {\n"
+                },
+                {
+                    "date": 1686034967259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n body {\n     margin: 0;\n     background: white;\n     background-image: url(loan.jpg);\n-\n }\n \n h1 {\n     text-align: center;\n@@ -19,16 +18,16 @@\n     width: 800px;\n     background: white;\n }\n .box-1{\n-height: 200px;\n-width: 350px;\n-background: white;\n+  height: 200px;\n+  width: 350px;\n+  background: white;\n }\n .box-2{\n-height: 200px;\n-width: 350px;\n-background: white;\n+  height: 200px;\n+  width: 350px;\n+  background: white;\n }\n .container h4 {\n     font-size: 22px;\n     margin-left: 20px;\n"
+                },
+                {
+                    "date": 1686052930044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n }\n body {\n     margin: 0;\n     background: white;\n-    background-image: url(loan.jpg);\n+\n }\n \n h1 {\n     text-align: center;\n@@ -50,14 +50,15 @@\n .box p {\n     text-align: center;\n }\n .contact-box{\n-    display: ;\n+    display:flex ;\n+   gap: 20px;\n     justify-content: space-between;\n     margin: auto;\n     height: 400px;\n     width: 650px;\n-    background: floralwhite;\n+    background: firebrick;\n }\n .contact-box h3 {\n     text-align: center;\n }\n@@ -66,6 +67,20 @@\n }\n .cob-1 {\n     height: 200px;\n     width: 300px;\n-    background: cornflowerblue;\n+    background: white;\n+    border-radius: 9px;\n+    \n+}\n+.cob-2 {\n+    height: 200px;\n+    width: 250px;\n+    background: white;\n+    border-radius: 9px;\n+}\n+.cob-3 {\n+    height: 200px;\n+    width: 250px;\n+    background: white;\n+    border-radius: 9px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686059586004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,8 @@\n     height: 200px;\n     width: 300px;\n     background: white;\n     border-radius: 9px;\n-    \n }\n .cob-2 {\n     height: 200px;\n     width: 250px;\n@@ -82,5 +81,10 @@\n     height: 200px;\n     width: 250px;\n     background: white;\n     border-radius: 9px;\n-}\n\\ No newline at end of file\n+}\n+.contact-box h5 {\n+    text-align: center;\n+}\n+.contact-box a {\n+    margin-left: 60px;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686227530195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,5 +86,6 @@\n .contact-box h5 {\n     text-align: center;\n }\n .contact-box a {\n-    margin-left: 60px;\n\\ No newline at end of file\n+    margin-left: 60px;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686227835408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     box-sizing: border-box;\n }\n body {\n     margin: 0;\n-    background: white;\n+    background: whitesmoke;\n \n }\n \n h1 {\n@@ -15,18 +15,20 @@\n     display: flex;\n     justify-content: space-between;\n     height: 300px;\n     width: 800px;\n-    background: white;\n+    background: whitesmoke\n }\n .box-1{\n-  height: 200px;\n+  margin-top: 30px;\n+  height: 230px;\n   width: 350px;\n   background: white;\n }\n .box-2{\n-  height: 200px;\n-  width: 350px;\n+  margin-top: 30px;\n+  height: 230px;\n+  width: 380px;\n   background: white;\n }\n .container h4 {\n     font-size: 22px;\n@@ -51,34 +53,37 @@\n     text-align: center;\n }\n .contact-box{\n     display:flex ;\n-   gap: 20px;\n+    gap: 20px;\n     justify-content: space-between;\n     margin: auto;\n     height: 400px;\n-    width: 650px;\n-    background: firebrick;\n+    width: 690px;\n+    background: whitesmoke;\n }\n .contact-box h3 {\n     text-align: center;\n }\n .contact-box p {\n     text-align: center;\n }\n .cob-1 {\n+    margin-top: 20px;\n     height: 200px;\n     width: 300px;\n     background: white;\n     border-radius: 9px;\n }\n .cob-2 {\n+    margin-top: 20px;\n     height: 200px;\n     width: 250px;\n     background: white;\n     border-radius: 9px;\n }\n .cob-3 {\n+    margin-top: 20px;\n     height: 200px;\n     width: 250px;\n     background: white;\n     border-radius: 9px;\n"
+                },
+                {
+                    "date": 1686228029856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,10 +38,10 @@\n     margin-left: 20px;\n }\n .box{\n     margin: auto;\n-    height: 200px;\n-    width: 450px;\n+    height: 220px;\n+    width: 570px;\n     background: white;\n }\n .box h4 {\n     margin-bottom:20px;\n@@ -92,5 +92,5 @@\n     text-align: center;\n }\n .contact-box a {\n     margin-left: 60px;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1686917327082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n }\n body {\n     margin: 0;\n     background: whitesmoke;\n+    background-image: url(tee\\ loan.jpg);\n \n }\n \n h1 {\n@@ -93,4 +94,7 @@\n }\n .contact-box a {\n     margin-left: 60px;\n }\n+.cob-1 a {\n+    text-align: center;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686917372886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n }\n body {\n     margin: 0;\n     background: whitesmoke;\n-    background-image: url(tee\\ loan.jpg);\n \n }\n \n h1 {\n"
+                },
+                {
+                    "date": 1688386865817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     box-sizing: border-box;\n }\n body {\n     margin: 0;\n-    background: whitesmoke;\n+    background: #ffffff;\n \n }\n \n h1 {\n@@ -15,9 +15,9 @@\n     display: flex;\n     justify-content: space-between;\n     height: 300px;\n     width: 800px;\n-    background: whitesmoke\n+    background: #ffffff;\n }\n .box-1{\n   margin-top: 30px;\n   height: 230px;\n@@ -27,40 +27,44 @@\n .box-2{\n   margin-top: 30px;\n   height: 230px;\n   width: 380px;\n-  background: white;\n+  background: #ffffff;\n }\n .container h4 {\n     font-size: 22px;\n     margin-left: 20px;\n+    font-family: sans-serif;\n }\n .container p {\n     margin-left: 20px;\n+    font-family: sans-serif;\n }\n .box{\n     margin: auto;\n     height: 220px;\n     width: 570px;\n-    background: white;\n+    background: #ffffff;\n }\n .box h4 {\n     margin-bottom:20px;\n     text-align: center;\n     font-size: 22px;\n     margin-left: 30px;\n+    font-family: sans-serif;\n }\n .box p {\n     text-align: center;\n+    font-family: sans-serif;\n }\n .contact-box{\n     display:flex ;\n     gap: 20px;\n     justify-content: space-between;\n     margin: auto;\n     height: 400px;\n     width: 690px;\n-    background: whitesmoke;\n+    background: #ffffff;\n }\n .contact-box h3 {\n     text-align: center;\n }\n@@ -92,8 +96,5 @@\n     text-align: center;\n }\n .contact-box a {\n     margin-left: 60px;\n-}\n-.cob-1 a {\n-    text-align: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688572483900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,5 +96,13 @@\n     text-align: center;\n }\n .contact-box a {\n     margin-left: 60px;\n+}\n+@media only screen and (max-width:400px) {\n+    .container {\n+        display: block;\n+        height: 200;\n+        width: 400px;\n+    }\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688572522780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n }\n @media only screen and (max-width:400px) {\n     .container {\n         display: block;\n-        height: 200;\n+        height: 200px;\n         width: 400px;\n     }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688572571906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,7 +102,8 @@\n     .container {\n         display: block;\n         height: 200px;\n         width: 400px;\n+        background: yellow;\n     }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688572687978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,8 +99,9 @@\n     margin-left: 60px;\n }\n @media only screen and (max-width:400px) {\n     .container {\n+        margin: auto;\n         display: block;\n         height: 200px;\n         width: 400px;\n         background: yellow;\n"
+                },
+                {
+                    "date": 1688572988337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,11 +100,8 @@\n }\n @media only screen and (max-width:400px) {\n     .container {\n         margin: auto;\n-        display: block;\n-        height: 200px;\n-        width: 400px;\n-        background: yellow;\n+        display: inline-block;\n     }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688573082860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,10 @@\n }\n \n h1 {\n     text-align: center;\n+    font-size: 25px;\n+    font-family: sans-serif;\n }\n .container {\n     margin: auto;\n     display: flex;\n@@ -99,9 +101,8 @@\n     margin-left: 60px;\n }\n @media only screen and (max-width:400px) {\n     .container {\n-        margin: auto;\n         display: inline-block;\n     }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688573197347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,7 +102,19 @@\n }\n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n+        width: 200px;\n     }\n-\n+    box-1{\n+        margin-top: 30px;\n+        height: 230px;\n+        background: white;\n+      }\n+      box-2{\n+        margin-top: 30px;\n+        height: 230px;\n+        background: white;\n+      }\n+      \n+      \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688573268941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,7 +114,10 @@\n         margin-top: 30px;\n         height: 230px;\n         background: white;\n       }\n-      \n-      \n+      .box {\n+        display: block;\n+        width: 100px;\n+      }\n+ \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688573421251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,9 +102,9 @@\n }\n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n-        width: 200px;\n+        width: 150px;\n     }\n     box-1{\n         margin-top: 30px;\n         height: 230px;\n@@ -116,8 +116,16 @@\n         background: white;\n       }\n       .box {\n         display: block;\n-        width: 100px;\n+        width: 150px;\n+        height: 200px;\n       }\n- \n+  .box h4 {\n+    font-size: 18px;\n+  }\n+  .box p {\n+    font-size: 12px;\n+    text-align: right;\n+  }\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688573606997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,9 @@\n     font-family: sans-serif;\n }\n .container p {\n     margin-left: 20px;\n+    font-size: 17px;\n     font-family: sans-serif;\n }\n .box{\n     margin: auto;\n@@ -99,8 +100,10 @@\n }\n .contact-box a {\n     margin-left: 60px;\n }\n+\n+\n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n         width: 150px;\n@@ -114,12 +117,19 @@\n         margin-top: 30px;\n         height: 230px;\n         background: white;\n       }\n+      .container h4 {\n+      font-size:18px ;\n+      }\n+      .container p {\n+      font-size: 12px;\n+      }\n       .box {\n         display: block;\n         width: 150px;\n         height: 200px;\n+        margin-bottom: 100px;\n       }\n   .box h4 {\n     font-size: 18px;\n   }\n"
+                },
+                {
+                    "date": 1688573862983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,29 +108,29 @@\n         display: inline-block;\n         width: 150px;\n     }\n     box-1{\n-        margin-top: 30px;\n-        height: 230px;\n-        background: white;\n+        margin-top: 10px;\n+        height: 130px;\n+\n       }\n       box-2{\n-        margin-top: 30px;\n-        height: 230px;\n-        background: white;\n+        margin-top: 10px;\n+        height: 130px;\n+       \n       }\n       .container h4 {\n-      font-size:18px ;\n+      font-size: 18px;\n       }\n       .container p {\n       font-size: 12px;\n-      }\n-      .box {\n+   }\n+   .box {\n         display: block;\n-        width: 150px;\n         height: 200px;\n+        margin-right: ;\n         margin-bottom: 100px;\n-      }\n+   }\n   .box h4 {\n     font-size: 18px;\n   }\n   .box p {\n"
+                },
+                {
+                    "date": 1688573939098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,5 +137,17 @@\n     font-size: 12px;\n     text-align: right;\n   }\n \n+\n+\n+\n+\n+  .contact-box{\n+    display:block ;\n+    gap: 20px;\n+    margin: auto;\n+    height: 400px;\n+    width: 690px;\n+    background: #ffffff;\n+}\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688574001536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,9 +145,12 @@\n   .contact-box{\n     display:block ;\n     gap: 20px;\n     margin: auto;\n-    height: 400px;\n-    width: 690px;\n+    height: 300px;\n     background: #ffffff;\n }\n+.cob-1 a {\n+    text-align: center;\n+}\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688574043836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,11 +146,12 @@\n     display:block ;\n     gap: 20px;\n     margin: auto;\n     height: 300px;\n+    width: 100%;\n     background: #ffffff;\n }\n .cob-1 a {\n-    text-align: center;\n+    margin-left: 140px;\n }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688574083062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,9 +126,9 @@\n    }\n    .box {\n         display: block;\n         height: 200px;\n-        margin-right: ;\n+        width: 100%;\n         margin-bottom: 100px;\n    }\n   .box h4 {\n     font-size: 18px;\n"
+                },
+                {
+                    "date": 1688574137850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,17 +126,19 @@\n    }\n    .box {\n         display: block;\n         height: 200px;\n-        width: 100%;\n+        width: 50%;\n         margin-bottom: 100px;\n    }\n   .box h4 {\n     font-size: 18px;\n+    line-height: 20px;\n   }\n   .box p {\n     font-size: 12px;\n     text-align: right;\n+    line-height: 20px;\n   }\n \n \n \n"
+                },
+                {
+                    "date": 1688574265389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n \n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n-        width: 150px;\n+       width: 30%;\n     }\n     box-1{\n         margin-top: 10px;\n         height: 130px;\n@@ -126,9 +126,9 @@\n    }\n    .box {\n         display: block;\n         height: 200px;\n-        width: 50%;\n+        width: 30%;\n         margin-bottom: 100px;\n    }\n   .box h4 {\n     font-size: 18px;\n"
+                },
+                {
+                    "date": 1688576701671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n \n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n-       width: 30%;\n+       margin: auto;\n     }\n     box-1{\n         margin-top: 10px;\n         height: 130px;\n"
+                },
+                {
+                    "date": 1688577022770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,52 +58,12 @@\n .box p {\n     text-align: center;\n     font-family: sans-serif;\n }\n-.contact-box{\n-    display:flex ;\n-    gap: 20px;\n-    justify-content: space-between;\n-    margin: auto;\n-    height: 400px;\n-    width: 690px;\n-    background: #ffffff;\n-}\n-.contact-box h3 {\n-    text-align: center;\n-}\n-.contact-box p {\n-    text-align: center;\n-}\n-.cob-1 {\n-    margin-top: 20px;\n-    height: 200px;\n-    width: 300px;\n-    background: white;\n-    border-radius: 9px;\n-}\n-.cob-2 {\n-    margin-top: 20px;\n-    height: 200px;\n-    width: 250px;\n-    background: white;\n-    border-radius: 9px;\n-}\n-.cob-3 {\n-    margin-top: 20px;\n-    height: 200px;\n-    width: 250px;\n-    background: white;\n-    border-radius: 9px;\n-}\n-.contact-box h5 {\n-    text-align: center;\n-}\n-.contact-box a {\n-    margin-left: 60px;\n-}\n \n \n+\n+\n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n        margin: auto;\n"
+                },
+                {
+                    "date": 1688577050326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n \n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n-       margin: auto;\n+        width: max-content;\n     }\n     box-1{\n         margin-top: 10px;\n         height: 130px;\n"
+                },
+                {
+                    "date": 1688577291256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n }\n .box{\n     margin: auto;\n     height: 220px;\n-    width: 570px;\n+    width: 370px;\n     background: #ffffff;\n }\n .box h4 {\n     margin-bottom:20px;\n"
+                },
+                {
+                    "date": 1688577480151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,12 +84,10 @@\n       .container p {\n       font-size: 12px;\n    }\n    .box {\n-        display: block;\n-        height: 200px;\n+        height: 150px;\n         width: 30%;\n-        margin-bottom: 100px;\n    }\n   .box h4 {\n     font-size: 18px;\n     line-height: 20px;\n"
+                },
+                {
+                    "date": 1688578141783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,29 +41,18 @@\n     margin-left: 20px;\n     font-size: 17px;\n     font-family: sans-serif;\n }\n-.box{\n-    margin: auto;\n+.box-3{\n     height: 220px;\n     width: 370px;\n     background: #ffffff;\n }\n-.box h4 {\n-    margin-bottom:20px;\n-    text-align: center;\n-    font-size: 22px;\n-    margin-left: 30px;\n-    font-family: sans-serif;\n-}\n-.box p {\n-    text-align: center;\n-    font-family: sans-serif;\n-}\n \n \n \n \n+\n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n         width: max-content;\n@@ -87,9 +76,9 @@\n    .box {\n         height: 150px;\n         width: 30%;\n    }\n-  .box h4 {\n+   h4 {\n     font-size: 18px;\n     line-height: 20px;\n   }\n   .box p {\n"
+                },
+                {
+                    "date": 1688578293327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,15 +22,15 @@\n }\n .box-1{\n   margin-top: 30px;\n   height: 230px;\n-  width: 350px;\n+  width: 450px;\n   background: white;\n }\n .box-2{\n   margin-top: 30px;\n   height: 230px;\n-  width: 380px;\n+  width: 480px;\n   background: #ffffff;\n }\n .container h4 {\n     font-size: 22px;\n@@ -43,9 +43,10 @@\n     font-family: sans-serif;\n }\n .box-3{\n     height: 220px;\n-    width: 370px;\n+    width: 480; \n+    margin-top: 30px;\n     background: #ffffff;\n }\n \n \n"
+                },
+                {
+                    "date": 1688578336048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     margin: auto;\n     display: flex;\n     justify-content: space-between;\n     height: 300px;\n-    width: 800px;\n+    width: 1300px;\n     background: #ffffff;\n }\n .box-1{\n   margin-top: 30px;\n"
+                },
+                {
+                    "date": 1688578801275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,14 +24,18 @@\n   margin-top: 30px;\n   height: 230px;\n   width: 450px;\n   background: white;\n+  border-radius: 10px;\n+  border:solid 0.5px blue;\n }\n .box-2{\n   margin-top: 30px;\n   height: 230px;\n   width: 480px;\n   background: #ffffff;\n+  border-radius: 10px;\n+  border: solid 0.5px blue;\n }\n .container h4 {\n     font-size: 22px;\n     margin-left: 20px;\n@@ -46,8 +50,10 @@\n     height: 220px;\n     width: 480; \n     margin-top: 30px;\n     background: #ffffff;\n+    border-radius: 10px;\n+    border: solid 0.5px blueviolet;\n }\n \n \n \n@@ -56,8 +62,9 @@\n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n         width: max-content;\n+        margin: 50px;\n     }\n     box-1{\n         margin-top: 10px;\n         height: 130px;\n"
+                },
+                {
+                    "date": 1688578830640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n     justify-content: space-between;\n     height: 300px;\n     width: 1300px;\n     background: #ffffff;\n+   gap: 15px;\n }\n .box-1{\n   margin-top: 30px;\n   height: 230px;\n"
+                },
+                {
+                    "date": 1688578871036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,10 +47,10 @@\n     font-size: 17px;\n     font-family: sans-serif;\n }\n .box-3{\n-    height: 220px;\n-    width: 480; \n+    height: 230px;\n+    width: 480px; \n     margin-top: 30px;\n     background: #ffffff;\n     border-radius: 10px;\n     border: solid 0.5px blueviolet;\n"
+                },
+                {
+                    "date": 1688634888331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n     }\n     box-1{\n         margin-top: 10px;\n         height: 130px;\n-\n+        width: 200%;\n       }\n       box-2{\n         margin-top: 10px;\n         height: 130px;\n"
+                },
+                {
+                    "date": 1688634973075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n     }\n     box-1{\n         margin-top: 10px;\n         height: 130px;\n-        width: 200%;\n+        width: 100%;\n       }\n       box-2{\n         margin-top: 10px;\n         height: 130px;\n"
+                },
+                {
+                    "date": 1688635125515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n \n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n-        width: max-content;\n+        width: ;\n         margin: 50px;\n     }\n     box-1{\n         margin-top: 10px;\n@@ -79,37 +79,15 @@\n       .container h4 {\n       font-size: 18px;\n       }\n       .container p {\n-      font-size: 12px;\n+      font-size: 8px;\n+      font-family: sans-serif;\n+      line-height: 20px;\n    }\n-   .box {\n-        height: 150px;\n-        width: 30%;\n-   }\n+   \n    h4 {\n     font-size: 18px;\n     line-height: 20px;\n   }\n-  .box p {\n-    font-size: 12px;\n-    text-align: right;\n-    line-height: 20px;\n-  }\n-\n-\n-\n-\n-\n-  .contact-box{\n-    display:block ;\n-    gap: 20px;\n-    margin: auto;\n-    height: 300px;\n-    width: 100%;\n-    background: #ffffff;\n-}\n-.cob-1 a {\n-    margin-left: 140px;\n-}\n-\n+  \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688635320790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,15 +67,11 @@\n         margin: 50px;\n     }\n     box-1{\n         margin-top: 10px;\n-        height: 130px;\n-        width: 100%;\n       }\n       box-2{\n         margin-top: 10px;\n-        height: 130px;\n-       \n       }\n       .container h4 {\n       font-size: 18px;\n       }\n@@ -84,10 +80,7 @@\n       font-family: sans-serif;\n       line-height: 20px;\n    }\n    \n-   h4 {\n-    font-size: 18px;\n-    line-height: 20px;\n-  }\n   \n+  \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688635415641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     justify-content: space-between;\n     height: 300px;\n     width: 1300px;\n     background: #ffffff;\n-   gap: 15px;\n+    gap: 15px;\n }\n .box-1{\n   margin-top: 30px;\n   height: 230px;\n@@ -49,9 +49,9 @@\n }\n .box-3{\n     height: 230px;\n     width: 480px; \n-    margin-top: 30px;\n+\n     background: #ffffff;\n     border-radius: 10px;\n     border: solid 0.5px blueviolet;\n }\n"
+                },
+                {
+                    "date": 1688635498871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,22 +49,19 @@\n }\n .box-3{\n     height: 230px;\n     width: 480px; \n-\n+     margin-top: 30px;\n     background: #ffffff;\n     border-radius: 10px;\n     border: solid 0.5px blueviolet;\n }\n \n \n-\n-\n-\n-@media only screen and (max-width:400px) {\n+@media only screen and (max-width:380px) {\n     .container {\n         display: inline-block;\n-        width: ;\n+        width:80% ;\n         margin: 50px;\n     }\n     box-1{\n         margin-top: 10px;\n"
+                },
+                {
+                    "date": 1688635531860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n \n @media only screen and (max-width:380px) {\n     .container {\n         display: inline-block;\n-        width:80% ;\n+        width: ;\n         margin: 50px;\n     }\n     box-1{\n         margin-top: 10px;\n"
+                },
+                {
+                    "date": 1688635557185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n     border: solid 0.5px blueviolet;\n }\n \n \n-@media only screen and (max-width:380px) {\n+@media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n         width: ;\n         margin: 50px;\n"
+                },
+                {
+                    "date": 1688635583037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n \n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n-        width: ;\n+        width:80% ;\n         margin: 50px;\n     }\n     box-1{\n         margin-top: 10px;\n"
+                },
+                {
+                    "date": 1688635756265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,10 +43,11 @@\n     font-family: sans-serif;\n }\n .container p {\n     margin-left: 20px;\n-    font-size: 17px;\n+    font-size: 15px;\n     font-family: sans-serif;\n+    line-height: 20px;\n }\n .box-3{\n     height: 230px;\n     width: 480px; \n"
+                },
+                {
+                    "date": 1688635924989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n       .container h4 {\n       font-size: 18px;\n       }\n       .container p {\n-      font-size: 8px;\n+      font-size: 10px;\n       font-family: sans-serif;\n       line-height: 20px;\n    }\n    \n"
+                },
+                {
+                    "date": 1688635983689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,14 +63,17 @@\n         display: inline-block;\n         width:80% ;\n         margin: 50px;\n     }\n-    box-1{\n+    .box-1{\n         margin-top: 10px;\n+        width: 80%;\n       }\n-      box-2{\n+      .box-2{\n         margin-top: 10px;\n+        width: 50%;\n       }\n+\n       .container h4 {\n       font-size: 18px;\n       }\n       .container p {\n"
+                },
+                {
+                    "date": 1688636047535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,20 +60,23 @@\n \n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n-        width:80% ;\n+        width: ;\n         margin: 50px;\n     }\n     .box-1{\n         margin-top: 10px;\n         width: 80%;\n       }\n       .box-2{\n         margin-top: 10px;\n-        width: 50%;\n+        width: 80%;\n       }\n-\n+     .box-3 {\n+      margin-top: 10px;\n+      width: 80%;\n+     }\n       .container h4 {\n       font-size: 18px;\n       }\n       .container p {\n"
+                },
+                {
+                    "date": 1688636079359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n \n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n-        width: ;\n+        width:100% ;\n         margin: 50px;\n     }\n     .box-1{\n         margin-top: 10px;\n"
+                },
+                {
+                    "date": 1688636182051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,8 +61,10 @@\n @media only screen and (max-width:400px) {\n     .container {\n         display: inline-block;\n         width:100% ;\n+        margin-left: auto;\n+        margin-right: auto;\n         margin: 50px;\n     }\n     .box-1{\n         margin-top: 10px;\n@@ -83,8 +85,13 @@\n       font-size: 10px;\n       font-family: sans-serif;\n       line-height: 20px;\n    }\n-   \n+   h1 {\n+    text-align: center;\n+    font-size: 20px;\n+    font-weight: bold;\n+    font-family: Georgia, 'Times New Roman', Times, serif;\n+   }\n   \n   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688636212133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n     border: solid 0.5px blueviolet;\n }\n \n \n-@media only screen and (max-width:400px) {\n+@media only screen and (max-width:350px) {\n     .container {\n         display: inline-block;\n         width:100% ;\n         margin-left: auto;\n"
+                },
+                {
+                    "date": 1688636234901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n     border: solid 0.5px blueviolet;\n }\n \n \n-@media only screen and (max-width:350px) {\n+@media only screen and (max-width:390px) {\n     .container {\n         display: inline-block;\n         width:100% ;\n         margin-left: auto;\n"
+                },
+                {
+                    "date": 1688657989737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,89 @@\n     border: solid 0.5px blueviolet;\n }\n \n \n-@media only screen and (max-width:390px) {\n+.footer{\n+    background: rgb(126, 120, 129);\n+    width: 100%;\n+    padding: 20px 30px 20px;\n+}\n+.socialicon {\n+    display: flex;\n+    justify-content: center;\n+}\n+.socialicon a {\n+    text-decoration: none;\n+    padding: 10px;\n+    margin: 10px;\n+    background: #ffffff;\n+    border-radius: 40%;\n+}\n+.socialicon a i {\n+    font-size: 2em;\n+    color: black;\n+}\n+.footernav ul {\n+ display: flex;\n+ justify-content: center;\n+ list-style: none;\n+}\n+.footernav ul li a{\n+ color: #ffffff;\n+ margin: 20px;\n+ text-decoration: none;\n+ font-size: 1.3em;\n+}\n+.footerbottom {\n+    background-color: black;\n+    padding: 10px;\n+    text-align: center;\n+}\n+.footerbottom p {\n+    color:white\n+}\n+\n+\n+@media only screen and (max-width:550px) {\n+     body {\n+        overflow: hidden;\n+     }\n+    .nav-links {\n+        position: absolute;\n+        right: 0px;\n+        top: 5vh;\n+        height: 70vh;\n+        background: black;\n+        display: flex;\n+        gap: 10px;\n+        width: 50%;\n+        flex-direction: column;\n+        align-items: center;\n+        transform: translateX(100%);\n+        transition: transform 0.5s ease-in;\n+    }\n+    .nav-links li {\n+        opacity: 1;\n+    }\n+    .nav-links li :hover {\n+        transition: all 5s;\n+        color: red;\n+    }\n+    .burger {\n+        display: block;\n+        cursor: pointer;\n+    }\n+   .nav-active {\n+    transform: translateX(0%);\n+   }\n+   .footernav {\n+    flex-direction: column;\n+   }\n+   .footernav ul li {\n+    width: 100%;\n+    text-align: center;\n+    margin: 1opx;\n+   } \n     .container {\n         display: inline-block;\n         width:100% ;\n         margin-left: auto;\n"
+                },
+                {
+                    "date": 1688659838768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,56 @@\n }\n body {\n     margin: 0;\n     background: #ffffff;\n-\n }\n-\n+nav {\n+    display: flex;\n+    justify-content: space-around;\n+    align-items: center;\n+    min-height: 8vh;\n+    font-family: sans-serif;\n+    background: gray;\n+}\n+.logo {\n+    color: black;\n+    text-transform: uppercase;\n+    letter-spacing: 5px;\n+    font-size: 30px;\n+    margin-right: 100px;\n+    font-family: sans-serif ;\n+}\n+ .nav-links {\n+    display: flex;\n+    justify-content: space-around;\n+    width: %;\n+    gap: 20px;\n+ }\n+.nav-links a {\n+    color: #ffffff;\n+     text-decoration: none;\n+     letter-spacing: 2px;\n+     font-weight: bold;\n+     font-size: 17px;\n+}\n+.nav-links li :hover {\n+    transition: all 3s;\n+    background: #ffffff;\n+    color: blue;\n+}\n+.nav-links li {\n+    list-style: none;\n+}\n+.burger div {\n+    width: 25px;\n+    height: 5px;\n+    background-color: #ffffff;\n+    margin: 5px;\n+    transition: all 0.3s ease-in;\n+}\n+.burger {\n+    display: none;\n+}\n h1 {\n     text-align: center;\n     font-size: 25px;\n     font-family: sans-serif;\n"
+                },
+                {
+                    "date": 1688660008696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,8 +103,9 @@\n }\n \n \n .footer{\n+    margin-top: 100px;\n     background: rgb(126, 120, 129);\n     width: 100%;\n     padding: 20px 30px 20px;\n }\n"
+                },
+                {
+                    "date": 1688660119972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,9 +144,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:550px) {\n+@media only screen and (max-width:450px) {\n      body {\n         overflow: hidden;\n      }\n     .nav-links {\n@@ -217,7 +217,6 @@\n     font-size: 20px;\n     font-weight: bold;\n     font-family: Georgia, 'Times New Roman', Times, serif;\n    }\n-  \n-  \n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688660669614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width: %;\n+    width: 0;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n@@ -101,9 +101,8 @@\n     border-radius: 10px;\n     border: solid 0.5px blueviolet;\n }\n \n-\n .footer{\n     margin-top: 100px;\n     background: rgb(126, 120, 129);\n     width: 100%;\n@@ -146,9 +145,9 @@\n \n \n @media only screen and (max-width:450px) {\n      body {\n-        overflow: hidden;\n+        overflow-x: hidden;\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n"
+                },
+                {
+                    "date": 1688660859345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -175,8 +175,12 @@\n     }\n    .nav-active {\n     transform: translateX(0%);\n    }\n+   .footer {\n+    margin-top: 100px;\n+   }\n+\n    .footernav {\n     flex-direction: column;\n    }\n    .footernav ul li {\n"
+                },
+                {
+                    "date": 1688660948337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -150,8 +150,9 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n+        padding: 0;\n         top: 5vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n"
+                },
+                {
+                    "date": 1688677890787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -150,10 +150,9 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        padding: 0;\n-        top: 5vh;\n+        top: 6vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n"
+                },
+                {
+                    "date": 1688678125682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n       .container h4 {\n       font-size: 18px;\n       }\n       .container p {\n-      font-size: 10px;\n+      font-size: 16px;\n       font-family: sans-serif;\n       line-height: 20px;\n    }\n    h1 {\n"
+                },
+                {
+                    "date": 1688678203591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n       .container h4 {\n       font-size: 18px;\n       }\n       .container p {\n-      font-size: 16px;\n+      font-size: 13px;\n       font-family: sans-serif;\n       line-height: 20px;\n    }\n    h1 {\n"
+                },
+                {
+                    "date": 1688678480352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,9 +143,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:450px) {\n+@media only screen and (max-width:850px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688679221947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,9 +143,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:850px) {\n+@media only screen and (max-width:550px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688713536951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,9 +143,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:550px) {\n+@media only screen and (max-width:767px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688714373401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -150,18 +150,18 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 6vh;\n+        top: 8vh;\n         height: 70vh;\n-        background: black;\n+        background: gray;\n         display: flex;\n         gap: 10px;\n-        width: 50%;\n+        width: 70%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n-        transition: transform 0.5s ease-in;\n+        transition: transform 0.5s ease;\n     }\n     .nav-links li {\n         opacity: 1;\n     }\n@@ -174,8 +174,9 @@\n         cursor: pointer;\n     }\n    .nav-active {\n     transform: translateX(0%);\n+    margin-top: 0px;\n    }\n    .footer {\n     margin-top: 100px;\n    }\n"
+                },
+                {
+                    "date": 1688721097383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,9 +143,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:767px) {\n+@media only screen and (max-width:400px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688730469422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,56 +3,54 @@\n }\n body {\n     margin: 0;\n     background: #ffffff;\n+}header {\n+    background-color: gray;\n }\n-nav {\n+li {\n+    list-style: none;\n+}\n+a {\n+    color: white;\n+    text-decoration: none;\n+}\n+.navbar {\n+    min-height: 70px;\n     display: flex;\n-    justify-content: space-around;\n+    justify-content: space-between;\n     align-items: center;\n-    min-height: 8vh;\n-    font-family: sans-serif;\n-    background: gray;\n+    padding: 0 24px;\n }\n-.logo {\n-    color: black;\n-    text-transform: uppercase;\n-    letter-spacing: 5px;\n-    font-size: 30px;\n-    margin-right: 100px;\n-    font-family: sans-serif ;\n-}\n- .nav-links {\n+.nav-menu {\n     display: flex;\n-    justify-content: space-around;\n-    width: 0;\n-    gap: 20px;\n- }\n-.nav-links a {\n-    color: #ffffff;\n-     text-decoration: none;\n-     letter-spacing: 2px;\n-     font-weight: bold;\n-     font-size: 17px;\n+    justify-content: space-between;\n+    align-items: center;\n+    gap: 60px;\n+    letter-spacing: 3px;\n }\n-.nav-links li :hover {\n-    transition: all 3s;\n-    background: #ffffff;\n-    color: blue;\n+.logo {\n+    font-size: 2rem;\n }\n-.nav-links li {\n-    list-style: none;\n+.nav-link{\n+    transition: 0.7s ease;\n }\n-.burger div {\n-    width: 25px;\n-    height: 5px;\n-    background-color: #ffffff;\n-    margin: 5px;\n-    transition: all 0.3s ease-in;\n+.nav-link:hover {\n+    color: blueviolet;\n }\n .burger {\n     display: none;\n+    cursor: pointer;\n }\n+.bar{\n+    display: block;\n+    width: 25px;\n+    height: 3px;\n+    margin: 5px auto;\n+    -webkit-transition: all 0.3s ease-in-out;\n+    transition: all 0.3s ease-in-out;\n+    background: white;\n+}\n h1 {\n     text-align: center;\n     font-size: 25px;\n     font-family: sans-serif;\n@@ -143,41 +141,42 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:400px) {\n-     body {\n-        overflow-x: hidden;\n-     }\n-    .nav-links {\n-        position: absolute;\n-        right: 0px;\n-        top: 8vh;\n-        height: 70vh;\n-        background: gray;\n-        display: flex;\n-        gap: 10px;\n-        width: 70%;\n+@media(max-width:767px) {\n+    body {\n+        width: min-content;\n+    }\n+    .burger {\n+        display: block;\n+    }\n+    .burger.active .bar:nth-child(2) {\n+        opacity: 0;\n+    }\n+    .burger.active .bar:nth-child(1) {\n+       transform: translateY(8px)rotate(45deg);\n+    }\n+    .burger.active .bar:nth-child(3) {\n+        transform: translateY(-8px) rotate(-45deg);\n+    }\n+    .nav-menu {\n+        position:fixed;\n+        left: -100%;\n+        top: 7.5vh;\n+        gap: 0;\n         flex-direction: column;\n-        align-items: center;\n-        transform: translateX(100%);\n-        transition: transform 0.5s ease;\n+        background-color: gray;\n+        width: 80%;\n+        text-align: center;\n+        transition: 0.3s;\n     }\n-    .nav-links li {\n-        opacity: 1;\n+    .nav-item {\n+        margin: 16px 0;\n     }\n-    .nav-links li :hover {\n-        transition: all 5s;\n-        color: red;\n+    .nav-menu.active {\n+        left: 0;\n     }\n-    .burger {\n-        display: block;\n-        cursor: pointer;\n-    }\n-   .nav-active {\n-    transform: translateX(0%);\n-    margin-top: 0px;\n-   }\n+\n    .footer {\n     margin-top: 100px;\n    }\n \n"
+                },
+                {
+                    "date": 1688732126116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,9 +160,9 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 7.5vh;\n+        top: 7vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n         width: 80%;\n"
+                },
+                {
+                    "date": 1688732282973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,9 +160,9 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 7vh;\n+        top: 5vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n         width: 80%;\n"
+                },
+                {
+                    "date": 1688739020723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,11 +142,9 @@\n }\n \n \n @media(max-width:767px) {\n-    body {\n-        width: min-content;\n-    }\n+  \n     .burger {\n         display: block;\n     }\n     .burger.active .bar:nth-child(2) {\n"
+                },
+                {
+                    "date": 1688739236140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -162,9 +162,9 @@\n         top: 5vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n-        width: 80%;\n+        width: 100%;\n         text-align: center;\n         transition: 0.3s;\n     }\n     .nav-item {\n"
+                },
+                {
+                    "date": 1688743978699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,26 +193,26 @@\n         margin-right: auto;\n         margin: 50px;\n     }\n     .box-1{\n-        margin-top: 10px;\n+        margin-top: 15px;\n         width: 80%;\n       }\n       .box-2{\n-        margin-top: 10px;\n+        margin-top: 15px;\n         width: 80%;\n       }\n      .box-3 {\n-      margin-top: 10px;\n+      margin-top: 15px;\n       width: 80%;\n      }\n       .container h4 {\n       font-size: 18px;\n       }\n       .container p {\n-      font-size: 13px;\n+      font-size: 10px;\n       font-family: sans-serif;\n-      line-height: 20px;\n+      line-height: 10px;\n    }\n    h1 {\n     text-align: center;\n     font-size: 20px;\n"
+                },
+                {
+                    "date": 1688744864214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,10 +180,10 @@\n \n    .footernav {\n     flex-direction: column;\n    }\n-   .footernav ul li {\n-    width: 100%;\n+   .footernav ul li a{\n+    width: 40%;\n     text-align: center;\n     margin: 1opx;\n    } \n     .container {\n"
+                },
+                {
+                    "date": 1688789471165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n body {\n     margin: 0;\n     background: #ffffff;\n }header {\n-    background-color: gray;\n+    background-color: blue;\n }\n li {\n     list-style: none;\n }\n"
+                },
+                {
+                    "date": 1688789616442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     background: white;\n }\n h1 {\n     text-align: center;\n-    font-size: 25px;\n+    font-size: 30px;\n     font-family: sans-serif;\n }\n .container {\n     margin: auto;\n"
+                }
+            ],
+            "date": 1685966845295,
+            "name": "Commit-0",
+            "content": "*{\n    box-sizing: border-box;\n}\n\n\nh1 {\n    text-align: center;\n}\n.container {\n    display: flex;\n    justify-content: space-between;\n    height: 300px;\n    width: 800px;\n    background: white;\n}\n.box-1{\nheight: 200px;\nwidth: 350px;\nbackground: white;\n}\n.box-2{\nheight: 200px;\nwidth: 350px;\nbackground: white;\n}\n.container h4 {\n    font-size: 22px;\n    margin-left: 20px;\n}\n.container p {\n    margin-left: 20px;\n}\n.box{\n    margin: auto;\n    height: 200px;\n    width: 450px;\n    background: white;\n}\n.box h4 {\n    text-align: center;\n    font-size: 22px;\n    margin-left: 30px;\n}\n.box p {\n    text-align: center;\n}"
+        }
+    ]
+}

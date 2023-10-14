@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: #ffffff;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 800px;
+    background: #ffffff;
+}
+.box-1{
+  margin-top: 30px;
+  height: 230px;
+  width: 350px;
+  background: white;
+}
+.box-2{
+  margin-top: 30px;
+  height: 230px;
+  width: 380px;
+  background: #ffffff;
+}
+.container h4 {
+    font-size: 22px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.container p {
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.box{
+    margin: auto;
+    height: 220px;
+    width: 570px;
+    background: #ffffff;
+}
+.box h4 {
+    margin-bottom:20px;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+.box p {
+    text-align: center;
+    font-family: sans-serif;
+}
+.contact-box{
+    display:flex ;
+    gap: 20px;
+    justify-content: space-between;
+    margin: auto;
+    height: 400px;
+    width: 690px;
+    background: #ffffff;
+}
+.contact-box h3 {
+    text-align: center;
+}
+.contact-box p {
+    text-align: center;
+}
+.cob-1 {
+    margin-top: 20px;
+    height: 200px;
+    width: 300px;
+    background: white;
+    border-radius: 9px;
+}
+.cob-2 {
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+    background: white;
+    border-radius: 9px;
+}
+.cob-3 {
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+    background: white;
+    border-radius: 9px;
+}
+.contact-box h5 {
+    text-align: center;
+}
+.contact-box a {
+    margin-left: 60px;
+}
+@media only screen and (max-width:400px) {
+    .container {
+        display: inline-block;
+        width: 200px;
+    }
+    box-1{
+        margin-top: 30px;
+        height: 230px;
+        background: white;
+      }
+      box-2{
+        margin-top: 30px;
+        height: 230px;
+        background: white;
+      }
+      .box {
+        display: block;
+        width: 100px;
+      }
+ 
+}

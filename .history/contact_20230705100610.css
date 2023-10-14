@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+.contact-box{
+    display:flex ;
+    gap: 20px;
+    justify-content: space-between;
+    margin: auto;
+    height: 400px;
+    width: 690px;
+    background: #ffffff;
+}
+.contact-box h3 {
+    text-align: center;
+}
+.contact-box p {
+    text-align: center;
+}
+.cob-1 {
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+    background: white;
+    border-radius: 9px;
+    border: solid 0.5px blue;
+}
+.cob-2 {
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+    background: white;
+    border-radius: 9px;
+    border: solid 0.5px blue;
+}
+.cob-3 {
+    margin-top: 20px;
+    height: 200px;
+    width: 250px;
+    background: white;
+    border-radius: 9px;
+    border: solid 0.5px blue;
+}
+.contact-box h5 {
+    text-align: center;
+}
+.contact-box a {
+    text-decoration: none;
+}
+.cob-1 a {
+margin-left: 100px;
+}
+.cob-2 a {
+    margin-left: 60px;
+}
+.cob-3 a {
+    margin-left: 60px;
+}
+
+@media only screen and (max-width: 400px) {
+    .contact-box {
+        display: block;
+        width: max-content;
+    }
+
+}

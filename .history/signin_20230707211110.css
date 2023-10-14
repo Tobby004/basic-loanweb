@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(loanbytee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: blue;
+}
+li {
+    list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    letter-spacing: 3px;
+}
+.logo {
+    font-size: 2rem;
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover {
+    color: blueviolet;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: white;
+}
+.box {
+    margin-top: 200px;
+    display: flex;
+    height: 400px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background: cadetblue;
+    border-radius: 20px;
+    border:  solid 0.5px blue;
+}
+
+.signin-box{
+    margin: auto;
+    height: 220px;
+    width: 260px;
+    background: #9d6b9d;
+    border-radius: 20px;
+    border: solid 0.8px  red;
+} 
+h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+form {
+    margin-left: 20px;
+}
+input{
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+button {
+    margin-top: 15px;
+    margin-left: 69px;
+    height: 23px;
+    border: none;
+    border-radius:7px;
+    color: blue;
+}
+p {
+    text-align: center;
+    color: cyan;
+}
+.footer{
+    margin-top: 100px;
+    background: rgb(126, 120, 129);
+    width: 100%;
+    padding: 20px 30px 20px;
+}
+.socialicon {
+    display: flex;
+    justify-content: center;
+}
+.socialicon a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 40%;
+}
+.socialicon a i {
+    font-size: 2em;
+    color: black;
+}
+.footernav ul {
+ display: flex;
+ justify-content: center;
+ list-style: none;
+}
+.footernav ul li a{
+ color: #ffffff;
+ margin: 20px;
+ text-decoration: none;
+ font-size: 1.3em;
+}
+.footerbottom {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.footerbottom p {
+    color:white
+}
+
+
+@media(max-width:767px) {
+ 
+    .burger {
+        display: block;
+    }
+    .burger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .burger.active .bar:nth-child(1) {
+       transform: translateY(8px)rotate(45deg);
+    }
+    .burger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu {
+        position:fixed;
+        left: -100%;
+        top: 7vh;
+        gap: 0;
+        flex-direction: column;
+        background-color: gray;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item {
+        margin: 16px 0;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+
+   .footernav {
+    flex-direction: column;
+   }
+   .footernav ul li a{
+    width: 40%;
+    text-align: center;
+    margin: 1opx;
+   } 
+
+   .box {
+    width: 380px;
+    height: 330px;
+   } 
+
+}

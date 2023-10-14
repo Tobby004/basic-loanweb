@@ -1,0 +1,30 @@
+{
+    "sourceFile": "nav.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1688725200898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688725720258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,5 +42,16 @@\n }\n .bar{\n     display: block;\n     width: 25px;\n+    height: 3px;\n+    margin: 5px auto;\n+    -webkit-transition: all 0.3s ease-in-out;\n+    transition: all 0.3s ease-in-out;\n+    background: white;\n+}\n+@media(max-width:767px) {\n+    .burger {\n+        display: block;\n+    }\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688726980833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,22 @@\n @media(max-width:767px) {\n     .burger {\n         display: block;\n     }\n-    \n+    .burger.active .bar:nth-child(2) {\n+        opacity: 0;\n+    }\n+    .burger.active .bar:nth-child(1) {\n+       transform: translateY(8px)rotate(45deg);\n+    }\n+    .burger.active .bar:nth-child(3) {\n+        transform: translateY(-8px) rotate(-45deg);\n+    }\n+    .nav-menu {\n+        position:fixed;\n+        left: -100%;\n+        top: 70px;\n+        gap: 0;\n+        flex-direction: column;\n+        background-color: gray;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688727945479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,6 +68,15 @@\n         top: 70px;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n+        width: 100%;\n+        text-align: center;\n+        transition: 0.3s;\n     }\n+    .nav-item {\n+        margin: 16px 0;\n+    }\n+    .nav-menu.active {\n+        left: 0;\n+    }\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1688725200898,
+            "name": "Commit-0",
+            "content": "* {\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n}\nheader {\n    background-color: gray;\n}\nli {\n    list-style: none;\n}\na {\n    color: white;\n    text-decoration: none;\n}\n.navbar {\n    min-height: 70px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 0 24px;\n}\n.nav-menu {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    gap: 60px;\n    letter-spacing: 3px;\n}\n.logo {\n    font-size: 2rem;\n}\n.nav-link{\n    transition: 0.7s ease;\n}\n.nav-link:hover {\n    color: blueviolet;\n}\n.burger {\n    display: none;\n    cursor: pointer;\n}\n.bar{\n    display: block;\n    width: 25px;\n}"
+        }
+    ]
+}

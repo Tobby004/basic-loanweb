@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(loanbytee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: sans-serif;
+    background: gray;
+}
+.logo {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-right: 100px;
+    font-family: sans-serif ;
+}
+ .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 0;
+    gap: 20px;
+ }
+.nav-links a {
+    color: #ffffff;
+     text-decoration: none;
+     letter-spacing: 2px;
+     font-weight: bold;
+     font-size: 17px;
+}
+.nav-links li :hover {
+    transition: all 3s;
+    background: #ffffff;
+    color: blue;
+}
+.nav-links li {
+    list-style: none;
+}
+.burger div {
+    width: 25px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 5px;
+    transition: all 0.3s ease-in;
+    margin-left: 90px;
+}
+.burger {
+    display:none ;
+}
+
+.box {
+    margin-top: 200px;
+    display: flex;
+    height: 400px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background: cadetblue;
+    border-radius: 20px;
+    border:  solid 0.5px blue;
+}
+
+.signin-box{
+    margin: auto;
+    height: 220px;
+    width: 260px;
+    background: #9d6b9d;
+    border-radius: 20px;
+    border: solid 0.8px  red;
+} 
+h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+form {
+    margin-left: 20px;
+}
+input{
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+button {
+    margin-top: 15px;
+    margin-left: 69px;
+    height: 23px;
+    border: none;
+    border-radius:7px;
+    color: blue;
+}
+p {
+    text-align: center;
+    color: cyan;
+}
+.footer{
+    margin-top: 100px;
+    background: rgb(126, 120, 129);
+    width: 100%;
+    padding: 20px 30px 20px;
+}
+.socialicon {
+    display: flex;
+    justify-content: center;
+}
+.socialicon a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 40%;
+}
+.socialicon a i {
+    font-size: 2em;
+    color: black;
+}
+.footernav ul {
+ display: flex;
+ justify-content: center;
+ list-style: none;
+}
+.footernav ul li a{
+ color: #ffffff;
+ margin: 20px;
+ text-decoration: none;
+ font-size: 1.3em;
+}
+.footerbottom {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.footerbottom p {
+    color:white
+}
+
+
+@media only screen and (max-width:850px) {
+     body {
+        overflow-x: hidden;
+     }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        top: 6vh;
+        height: 70vh;
+        background: black;
+        display: flex;
+        gap: 10px;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li {
+        opacity: 1;
+    }
+    .nav-links li :hover {
+        transition: all 5s;
+        color: red;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+   .nav-active {
+    transform: translateX(0%);
+   }
+   .footernav {
+    flex-direction: column;
+   }
+   .footernav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 1opx;
+   } 
+
+   .box {
+    width: 380px;
+    height: 330px;
+   } 
+
+}

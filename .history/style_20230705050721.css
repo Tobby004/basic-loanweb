@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(loanbytee.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: sans-serif;
+    background: #ffffff;
+}
+.logo {
+    color: blue;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+ .nav-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    
+ }
+
+
+
+h3 {
+    margin-top: 70px;
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-left: 60px;
+}
+section {
+    height:450px;
+    text-align: center;
+    margin-top: 40px;
+}
+section h6 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+
+}
+section p {
+    text-align: center;
+    font-size: 15px;
+    color: cyan;
+}
+section div {
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background: blue;
+}
+span button {
+    color: white;
+    background: none;
+    height: 30px;
+    margin-left: 100px;
+}
+ion-icon {
+  font-size: 30px;
+}
+.footer{
+    height: 300px;
+    background: rgb(126, 120, 129);
+}
+
+
+
+
+
+@media only screen and (max-width:450px) {
+    nav {
+        padding:0px ;
+     
+    }
+    .logo {
+        
+    }
+    nav a {
+        display: block;
+      }
+    
+    
+    section {
+        height: 200px;
+        width:100% ;
+    }
+    section div {
+        padding: 10px;
+        margin: 3px;
+        display:inline-block;
+    }
+    section h6 {
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    section p {
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    ion-icon{
+        font-size: 20px;
+    }
+}

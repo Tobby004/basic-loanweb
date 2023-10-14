@@ -1,0 +1,130 @@
+{
+    "sourceFile": "reg.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 28,
+            "patches": [
+                {
+                    "date": 1685025823621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1685976540891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     box-sizing: border-box;\n }\n body {\n     background-color: #222;\n+    background-image: url(loan.jpg);\n }\n h5{\n     text-align: center;\n     font-size: 24px;\n"
+                },
+                {
+                    "date": 1686843848128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-* {\n+*{\n     box-sizing: border-box;\n }\n body {\n     background-color: #222;\n@@ -11,9 +11,9 @@\n     font-weight: lighter;\n }\n .apply-box{\n     margin: auto;\n-    height: 350px;\n+    height: 420px;\n     width: 350px;\n     background: #fffa;\n     border-radius: 20px;\n }\n"
+                },
+                {
+                    "date": 1686917327148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,18 +2,18 @@\n     box-sizing: border-box;\n }\n body {\n     background-color: #222;\n-    background-image: url(loan.jpg);\n+    background-image: url(tee\\ loan.jpg);\n }\n h5{\n     text-align: center;\n     font-size: 24px;\n     font-weight: lighter;\n }\n .apply-box{\n     margin: auto;\n-    height: 420px;\n+    height: 460px;\n     width: 350px;\n     background: #fffa;\n     border-radius: 20px;\n }\n@@ -31,8 +31,9 @@\n }\n button {\n     margin-top: 10px;\n     width: 50%;\n+    border: none;\n     border-radius: 7px;\n     border-color: blue;\n     margin-left: 16px;\n     height: 25px;\n"
+                },
+                {
+                    "date": 1686918430238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     font-weight: lighter;\n }\n .apply-box{\n     margin: auto;\n-    height: 460px;\n+    height: 490px;\n     width: 350px;\n     background: #fffa;\n     border-radius: 20px;\n }\n"
+                },
+                {
+                    "date": 1688386865838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,15 +5,17 @@\n     background-color: #222;\n     background-image: url(tee\\ loan.jpg);\n }\n h5{\n+    padding-top: 30px;\n+    margin-top: 80px;\n     text-align: center;\n     font-size: 24px;\n     font-weight: lighter;\n }\n .apply-box{\n     margin: auto;\n-    height: 490px;\n+    height: 550px;\n     width: 350px;\n     background: #fffa;\n     border-radius: 20px;\n }\n"
+                },
+                {
+                    "date": 1688387722442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n     box-sizing: border-box;\n }\n body {\n     background-color: #222;\n-    background-image: url(tee\\ loan.jpg);\n+    background-image: url(loanbytee.jpg);\n+    background-size: cover;\n+    \n }\n h5{\n     padding-top: 30px;\n     margin-top: 80px;\n"
+                },
+                {
+                    "date": 1688657989747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,87 @@\n     \n }\n button a {\n     text-decoration: none;\n+}\n+.footer{\n+    background: rgb(126, 120, 129);\n+    width: 100%;\n+    padding: 20px 30px 20px;\n+}\n+.socialicon {\n+    display: flex;\n+    justify-content: center;\n+}\n+.socialicon a {\n+    text-decoration: none;\n+    padding: 10px;\n+    margin: 10px;\n+    background: #ffffff;\n+    border-radius: 40%;\n+}\n+.socialicon a i {\n+    font-size: 2em;\n+    color: black;\n+}\n+.footernav ul {\n+ display: flex;\n+ justify-content: center;\n+ list-style: none;\n+}\n+.footernav ul li a{\n+ color: #ffffff;\n+ margin: 20px;\n+ text-decoration: none;\n+ font-size: 1.3em;\n+}\n+.footerbottom {\n+    background-color: black;\n+    padding: 10px;\n+    text-align: center;\n+}\n+.footerbottom p {\n+    color:white\n+}\n+\n+\n+@media only screen and (max-width:550px) {\n+     body {\n+        overflow-x: hidden;\n+     }\n+    .nav-links {\n+        position: absolute;\n+        right: 0px;\n+        top: 5vh;\n+        height: 70vh;\n+        background: black;\n+        display: flex;\n+        gap: 10px;\n+        width: 50%;\n+        flex-direction: column;\n+        align-items: center;\n+        transform: translateX(100%);\n+        transition: transform 0.5s ease-in;\n+    }\n+    .nav-links li {\n+        opacity: 1;\n+    }\n+    .nav-links li :hover {\n+        transition: all 5s;\n+        color: red;\n+    }\n+    .burger {\n+        display: block;\n+        cursor: pointer;\n+    }\n+   .nav-active {\n+    transform: translateX(0%);\n+   }\n+   .footernav {\n+    flex-direction: column;\n+   }\n+   .footernav ul li {\n+    width: 100%;\n+    text-align: center;\n+    margin: 1opx;\n+   } \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688659092066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n *{\n     box-sizing: border-box;\n }\n body {\n-    background-color: #222;\n+    \n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n     \n }\n@@ -20,10 +20,10 @@\n     width: 350px;\n     background: #fffa;\n     border-radius: 20px;\n }\n+\n form{\n-    width: 100%;\n      margin-left: 70px;\n }\n form input {\n     display: block;\n@@ -31,8 +31,9 @@\n     border: none;\n     width: 60%;\n     height: 30px;\n     border-radius: 6px;\n+    margin-left: 15px;\n }\n button {\n     margin-top: 10px;\n     width: 50%;\n@@ -46,8 +47,9 @@\n button a {\n     text-decoration: none;\n }\n .footer{\n+    margin-top: 100px;\n     background: rgb(126, 120, 129);\n     width: 100%;\n     padding: 20px 30px 20px;\n }\n"
+                },
+                {
+                    "date": 1688660422667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,57 @@\n body {\n     \n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n-    \n }\n+nav {\n+    display: flex;\n+    justify-content: space-around;\n+    align-items: center;\n+    min-height: 8vh;\n+    font-family: sans-serif;\n+    background: gray;\n+}\n+.logo {\n+    color: black;\n+    text-transform: uppercase;\n+    letter-spacing: 5px;\n+    font-size: 30px;\n+    margin-right: 100px;\n+    font-family: sans-serif ;\n+}\n+ .nav-links {\n+    display: flex;\n+    justify-content: space-around;\n+    width: 0;\n+    gap: 20px;\n+ }\n+.nav-links a {\n+    color: #ffffff;\n+     text-decoration: none;\n+     letter-spacing: 2px;\n+     font-weight: bold;\n+     font-size: 17px;\n+}\n+.nav-links li :hover {\n+    transition: all 3s;\n+    background: #ffffff;\n+    color: blue;\n+}\n+.nav-links li {\n+    list-style: none;\n+}\n+.burger div {\n+    width: 25px;\n+    height: 5px;\n+    background-color: #ffffff;\n+    margin: 5px;\n+    transition: all 0.3s ease-in;\n+}\n+.burger {\n+    display: none;\n+}\n+\n h5{\n     padding-top: 30px;\n     margin-top: 80px;\n     text-align: center;\n"
+                },
+                {
+                    "date": 1688676838028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n *{\n     box-sizing: border-box;\n }\n body {\n-    \n+    padding: 0;\n+    margin: 0;\n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n }\n nav {\n"
+                },
+                {
+                    "date": 1688677574142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,9 +148,9 @@\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: 50%;\n+        width: 0;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688677890819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,14 +143,14 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 5vh;\n+        top: 6vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n-        width: 0;\n+        width: 50%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688678480392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,9 +136,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:550px) {\n+@media only screen and (max-width:850px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688679221513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,9 +136,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:850px) {\n+@media only screen and (max-width:550px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688713536980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,18 +136,18 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:550px) {\n+@media only screen and (max-width:767px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n         top: 6vh;\n         height: 70vh;\n-        background: black;\n+        background: rgb(245, 111, 111);\n         display: flex;\n         gap: 10px;\n         width: 50%;\n         flex-direction: column;\n"
+                },
+                {
+                    "date": 1688714373779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,18 +143,18 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 6vh;\n+        top: 8vh;\n         height: 70vh;\n-        background: rgb(245, 111, 111);\n+        background: gray;\n         display: flex;\n         gap: 10px;\n         width: 50%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n-        transition: transform 0.5s ease-in;\n+        transition: transform 0.5s ease;\n     }\n     .nav-links li {\n         opacity: 1;\n     }\n@@ -167,8 +167,9 @@\n         cursor: pointer;\n     }\n    .nav-active {\n     transform: translateX(0%);\n+    margin-top: 0px;\n    }\n    .footernav {\n     flex-direction: column;\n    }\n"
+                },
+                {
+                    "date": 1688721097202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,9 +136,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:767px) {\n+@media only screen and (max-width:400px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688730469609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,55 +6,54 @@\n     margin: 0;\n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n }\n-nav {\n+header {\n+    background-color: gray;\n+}\n+li {\n+    list-style: none;\n+}\n+a {\n+    color: white;\n+    text-decoration: none;\n+}\n+.navbar {\n+    min-height: 70px;\n     display: flex;\n-    justify-content: space-around;\n+    justify-content: space-between;\n     align-items: center;\n-    min-height: 8vh;\n-    font-family: sans-serif;\n-    background: gray;\n+    padding: 0 24px;\n }\n-.logo {\n-    color: black;\n-    text-transform: uppercase;\n-    letter-spacing: 5px;\n-    font-size: 30px;\n-    margin-right: 100px;\n-    font-family: sans-serif ;\n-}\n- .nav-links {\n+.nav-menu {\n     display: flex;\n-    justify-content: space-around;\n-    width: 0;\n-    gap: 20px;\n- }\n-.nav-links a {\n-    color: #ffffff;\n-     text-decoration: none;\n-     letter-spacing: 2px;\n-     font-weight: bold;\n-     font-size: 17px;\n+    justify-content: space-between;\n+    align-items: center;\n+    gap: 60px;\n+    letter-spacing: 3px;\n }\n-.nav-links li :hover {\n-    transition: all 3s;\n-    background: #ffffff;\n-    color: blue;\n+.logo {\n+    font-size: 2rem;\n }\n-.nav-links li {\n-    list-style: none;\n+.nav-link{\n+    transition: 0.7s ease;\n }\n-.burger div {\n-    width: 25px;\n-    height: 5px;\n-    background-color: #ffffff;\n-    margin: 5px;\n-    transition: all 0.3s ease-in;\n+.nav-link:hover {\n+    color: blueviolet;\n }\n .burger {\n     display: none;\n+    cursor: pointer;\n }\n+.bar{\n+    display: block;\n+    width: 25px;\n+    height: 3px;\n+    margin: 5px auto;\n+    -webkit-transition: all 0.3s ease-in-out;\n+    transition: all 0.3s ease-in-out;\n+    background: white;\n+}\n \n h5{\n     padding-top: 30px;\n     margin-top: 80px;\n@@ -136,41 +135,42 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:400px) {\n-     body {\n-        overflow-x: hidden;\n-     }\n-    .nav-links {\n-        position: absolute;\n-        right: 0px;\n-        top: 8vh;\n-        height: 70vh;\n-        background: gray;\n-        display: flex;\n-        gap: 10px;\n-        width: 50%;\n+@media(max-width:767px) {\n+    body {\n+        width: min-content;\n+    }\n+    .burger {\n+        display: block;\n+    }\n+    .burger.active .bar:nth-child(2) {\n+        opacity: 0;\n+    }\n+    .burger.active .bar:nth-child(1) {\n+       transform: translateY(8px)rotate(45deg);\n+    }\n+    .burger.active .bar:nth-child(3) {\n+        transform: translateY(-8px) rotate(-45deg);\n+    }\n+    .nav-menu {\n+        position:fixed;\n+        left: -100%;\n+        top: 7.5vh;\n+        gap: 0;\n         flex-direction: column;\n-        align-items: center;\n-        transform: translateX(100%);\n-        transition: transform 0.5s ease;\n+        background-color: gray;\n+        width: 80%;\n+        text-align: center;\n+        transition: 0.3s;\n     }\n-    .nav-links li {\n-        opacity: 1;\n+    .nav-item {\n+        margin: 16px 0;\n     }\n-    .nav-links li :hover {\n-        transition: all 5s;\n-        color: red;\n+    .nav-menu.active {\n+        left: 0;\n     }\n-    .burger {\n-        display: block;\n-        cursor: pointer;\n-    }\n-   .nav-active {\n-    transform: translateX(0%);\n-    margin-top: 0px;\n-   }\n+\n    .footernav {\n     flex-direction: column;\n    }\n    .footernav ul li {\n"
+                },
+                {
+                    "date": 1688732125771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,9 +154,9 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 7.5vh;\n+        top: 7vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n         width: 80%;\n"
+                },
+                {
+                    "date": 1688732283327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,9 +154,9 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 7vh;\n+        top: 5vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n         width: 80%;\n"
+                },
+                {
+                    "date": 1688739020311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,11 +136,9 @@\n }\n \n \n @media(max-width:767px) {\n-    body {\n-        width: min-content;\n-    }\n+    \n     .burger {\n         display: block;\n     }\n     .burger.active .bar:nth-child(2) {\n"
+                },
+                {
+                    "date": 1688739236551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,9 +156,9 @@\n         top: 5vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n-        width: 80%;\n+        width: 100%;\n         text-align: center;\n         transition: 0.3s;\n     }\n     .nav-item {\n"
+                },
+                {
+                    "date": 1688744684069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,9 +171,9 @@\n    .footernav {\n     flex-direction: column;\n    }\n    .footernav ul li {\n-    width: 100%;\n+    width: 40%;\n     text-align: center;\n     margin: 1opx;\n    } \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688744864489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,9 +170,9 @@\n \n    .footernav {\n     flex-direction: column;\n    }\n-   .footernav ul li {\n+   .footernav ul li a{\n     width: 40%;\n     text-align: center;\n     margin: 1opx;\n    } \n"
+                },
+                {
+                    "date": 1688745898785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,11 @@\n     width: 350px;\n     background: #fffa;\n     border-radius: 20px;\n }\n-\n+form p a {\n+    color: blue;\n+}\n form{\n      margin-left: 70px;\n }\n form input {\n@@ -85,20 +87,19 @@\n     margin-top: 10px;\n     width: 50%;\n     border: none;\n     border-radius: 7px;\n-    border-color: blue;\n+    border:  solid blue;\n     margin-left: 16px;\n     height: 25px;\n-    \n }\n button a {\n     text-decoration: none;\n+    color: blue;\n }\n .footer{\n     margin-top: 100px;\n-    background: rgb(126, 120, 129);\n-    width: 100%;\n+    width: 100px;\n     padding: 20px 30px 20px;\n }\n .socialicon {\n     display: flex;\n@@ -129,15 +130,18 @@\n .footerbottom {\n     background-color: black;\n     padding: 10px;\n     text-align: center;\n+    width: 280px;\n }\n .footerbottom p {\n-    color:white\n+    color:white;\n+    width: 100%;\n+    \n }\n \n \n-@media(max-width:767px) {\n+@media(max-width:767px;) {\n     \n     .burger {\n         display: block;\n     }\n@@ -175,5 +179,8 @@\n     width: 40%;\n     text-align: center;\n     margin: 1opx;\n    } \n+   .footerbottom p {\n+    width: 100%;\n+   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688746160592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n     padding: 0;\n     margin: 0;\n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n+    background-repeat: no-repeat;\n }\n header {\n     background-color: gray;\n }\n@@ -95,50 +96,8 @@\n button a {\n     text-decoration: none;\n     color: blue;\n }\n-.footer{\n-    margin-top: 100px;\n-    width: 100px;\n-    padding: 20px 30px 20px;\n-}\n-.socialicon {\n-    display: flex;\n-    justify-content: center;\n-}\n-.socialicon a {\n-    text-decoration: none;\n-    padding: 10px;\n-    margin: 10px;\n-    background: #ffffff;\n-    border-radius: 40%;\n-}\n-.socialicon a i {\n-    font-size: 2em;\n-    color: black;\n-}\n-.footernav ul {\n- display: flex;\n- justify-content: center;\n- list-style: none;\n-}\n-.footernav ul li a{\n- color: #ffffff;\n- margin: 20px;\n- text-decoration: none;\n- font-size: 1.3em;\n-}\n-.footerbottom {\n-    background-color: black;\n-    padding: 10px;\n-    text-align: center;\n-    width: 280px;\n-}\n-.footerbottom p {\n-    color:white;\n-    width: 100%;\n-    \n-}\n \n \n @media(max-width:767px;) {\n     \n"
+                },
+                {
+                    "date": 1688746372365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n     color: blue;\n }\n \n \n-@media(max-width:767px;) {\n+@media(max-width:767px) {\n     \n     .burger {\n         display: block;\n     }\n"
+                },
+                {
+                    "date": 1688789616578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     background-size: cover;\n     background-repeat: no-repeat;\n }\n header {\n-    background-color: gray;\n+    background-color: blue;\n }\n li {\n     list-style: none;\n }\n"
+                }
+            ],
+            "date": 1685025823620,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\nbody {\n    background-color: #222;\n}\nh5{\n    text-align: center;\n    font-size: 24px;\n    font-weight: lighter;\n}\n.apply-box{\n    margin: auto;\n    height: 350px;\n    width: 350px;\n    background: #fffa;\n    border-radius: 20px;\n}\nform{\n    width: 100%;\n     margin-left: 70px;\n}\nform input {\n    display: block;\n    margin-top: 8px;\n    border: none;\n    width: 60%;\n    height: 30px;\n    border-radius: 6px;\n}\nbutton {\n    margin-top: 10px;\n    width: 50%;\n    border-radius: 7px;\n    border-color: blue;\n    margin-left: 16px;\n    height: 25px;\n    \n}\nbutton a {\n    text-decoration: none;\n}"
+        }
+    ]
+}

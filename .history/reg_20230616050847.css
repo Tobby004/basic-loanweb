@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #222;
+    background-image: url(tee\ loan.jpg);
+}
+h5{
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.apply-box{
+    margin: auto;
+    height: 460px;
+    width: 350px;
+    background: #fffa;
+    border-radius: 20px;
+}
+form{
+    width: 100%;
+     margin-left: 70px;
+}
+form input {
+    display: block;
+    margin-top: 8px;
+    border: none;
+    width: 60%;
+    height: 30px;
+    border-radius: 6px;
+}
+button {
+    margin-top: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 7px;
+    border-color: blue;
+    margin-left: 16px;
+    height: 25px;
+    
+}
+button a {
+    text-decoration: none;
+}

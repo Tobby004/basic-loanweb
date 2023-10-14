@@ -1,0 +1,190 @@
+{
+    "sourceFile": "test.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 43,
+            "patches": [
+                {
+                    "date": 1688680526486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688680609324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,13 +67,13 @@\n        height: 70vh;\n        background: black;\n        display: flex;\n        gap: 10px;\n-       width: 50%;\n+       width: 70%;\n        flex-direction: column;\n        align-items: center;\n        transform: translateX(100%);\n-       transition: transform 0.5s ease-in;\n+       \n    }\n    .nav-links li {\n        opacity: 1;\n    }\n"
+                },
+                {
+                    "date": 1688680652480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width:30% ;\n+    width: ;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n@@ -71,9 +71,9 @@\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n        transform: translateX(100%);\n-       \n+       transition: transform 0.5s ease-in;\n    }\n    .nav-links li {\n        opacity: 1;\n    }\n"
+                },
+                {
+                    "date": 1688680724516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n-       transform: translateX(100%);\n+       transform: translateX(00%);\n        transition: transform 0.5s ease-in;\n    }\n    .nav-links li {\n        opacity: 1;\n"
+                },
+                {
+                    "date": 1688680790632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n-       transform: translateX(00%);\n+       transform: translateY(100%);\n        transition: transform 0.5s ease-in;\n    }\n    .nav-links li {\n        opacity: 1;\n@@ -85,7 +85,7 @@\n        display: block;\n        cursor: pointer;\n    }\n   .nav-active {\n-   transform: translateX(0%);\n+   transform: translateY(0%);\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688680859862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n-       transform: translateY(100%);\n+       transform: translateY(10%);\n        transition: transform 0.5s ease-in;\n    }\n    .nav-links li {\n        opacity: 1;\n"
+                },
+                {
+                    "date": 1688680940307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n-       transform: translateY(10%);\n+       transform: translate3d(100%);\n        transition: transform 0.5s ease-in;\n    }\n    .nav-links li {\n        opacity: 1;\n@@ -85,7 +85,7 @@\n        display: block;\n        cursor: pointer;\n    }\n   .nav-active {\n-   transform: translateY(0%);\n+   transform: translate3d(0%);\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688681034064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,7 +85,7 @@\n        display: block;\n        cursor: pointer;\n    }\n   .nav-active {\n-   transform: translate3d(0%);\n+   transform: translate3d(10%);\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688681057706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n-       transform: translate3d(100%);\n+       transform: translate3d(-100%);\n        transition: transform 0.5s ease-in;\n    }\n    .nav-links li {\n        opacity: 1;\n@@ -85,7 +85,7 @@\n        display: block;\n        cursor: pointer;\n    }\n   .nav-active {\n-   transform: translate3d(10%);\n+   transform: translate3d(0%);\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688681109810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,10 +70,9 @@\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n-       transform: translate3d(-100%);\n-       transition: transform 0.5s ease-in;\n+       transition: all 0.5s ease;\n    }\n    .nav-links li {\n        opacity: 1;\n    }\n@@ -85,7 +84,7 @@\n        display: block;\n        cursor: pointer;\n    }\n   .nav-active {\n-   transform: translate3d(0%);\n+   \n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688681153554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n-       transition: all 0.5s ease;\n+       transition: all 0.5s ease-out;\n    }\n    .nav-links li {\n        opacity: 1;\n    }\n@@ -84,7 +84,7 @@\n        display: block;\n        cursor: pointer;\n    }\n   .nav-active {\n-   \n+   transition: all 0.7s ease;\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688681205338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,8 +71,9 @@\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n        transition: all 0.5s ease-out;\n+       margin-top: -900px;\n    }\n    .nav-links li {\n        opacity: 1;\n    }\n"
+                },
+                {
+                    "date": 1688681235919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n    .nav-links {\n        position: absolute;\n        right: 0px;\n        top: 6vh;\n-       height: 70vh;\n+       height: 100vh;\n        background: black;\n        display: flex;\n        gap: 10px;\n        width: 70%;\n"
+                },
+                {
+                    "date": 1688681326433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,10 +70,10 @@\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n-       transition: all 0.5s ease-out;\n-       margin-top: -900px;\n+       transition: all 0.5s;\n+       margin-top: -700px;\n    }\n    .nav-links li {\n        opacity: 1;\n    }\n"
+                },
+                {
+                    "date": 1688681370629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width: ;\n+    width:30% ;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n@@ -63,17 +63,17 @@\n    .nav-links {\n        position: absolute;\n        right: 0px;\n        top: 6vh;\n-       height: 100vh;\n+       height: 70vh;\n        background: black;\n        display: flex;\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n-       transition: all 0.5s;\n-       margin-top: -700px;\n+       transform: translateX(100%);\n+       transition: transform 0.5s ease-in;\n    }\n    .nav-links li {\n        opacity: 1;\n    }\n@@ -85,7 +85,7 @@\n        display: block;\n        cursor: pointer;\n    }\n   .nav-active {\n-   transition: all 0.7s ease;\n+   transform: translateX(0%);\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688681403711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n        overflow-x: hidden;\n     }\n    .nav-links {\n        position: absolute;\n-       right: 0px;\n+       right: -20px;\n        top: 6vh;\n        height: 70vh;\n        background: black;\n        display: flex;\n"
+                },
+                {
+                    "date": 1688681431463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n        overflow-x: hidden;\n     }\n    .nav-links {\n        position: absolute;\n-       right: -20px;\n+       right: -200px;\n        top: 6vh;\n        height: 70vh;\n        background: black;\n        display: flex;\n"
+                },
+                {
+                    "date": 1688681470381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,15 +61,16 @@\n        overflow-x: hidden;\n     }\n    .nav-links {\n        position: absolute;\n-       right: -200px;\n+       right: 0px;\n        top: 6vh;\n        height: 70vh;\n        background: black;\n        display: flex;\n        gap: 10px;\n        width: 70%;\n+       margin-top: -900px;\n        flex-direction: column;\n        align-items: center;\n        transform: translateX(100%);\n        transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688681508152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n        background: black;\n        display: flex;\n        gap: 10px;\n        width: 70%;\n-       margin-top: -900px;\n+       margin-top: -700px;\n        flex-direction: column;\n        align-items: center;\n        transform: translateX(100%);\n        transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688681563456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,6 +87,7 @@\n        cursor: pointer;\n    }\n   .nav-active {\n    transform: translateX(0%);\n+   margin-top: -700px;\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688681591649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,8 @@\n        background: black;\n        display: flex;\n        gap: 10px;\n        width: 70%;\n-       margin-top: -700px;\n        flex-direction: column;\n        align-items: center;\n        transform: translateX(100%);\n        transition: transform 0.5s ease-in;\n"
+                },
+                {
+                    "date": 1688681740532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n        transform: translateX(100%);\n-       transition: transform 0.5s ease-in;\n+       transition: transform 0.5s ease;\n    }\n    .nav-links li {\n        opacity: 1;\n    }\n"
+                },
+                {
+                    "date": 1688681843260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,7 +86,7 @@\n        cursor: pointer;\n    }\n   .nav-active {\n    transform: translateX(0%);\n-   margin-top: -700px;\n+   margin-top: -00px;\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688681882643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n     }\n    .nav-links {\n        position: absolute;\n        right: 0px;\n-       top: 6vh;\n+       top: 5vh;\n        height: 70vh;\n        background: black;\n        display: flex;\n        gap: 10px;\n"
+                },
+                {
+                    "date": 1688681905550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n     }\n    .nav-links {\n        position: absolute;\n        right: 0px;\n-       top: 5vh;\n+       top: 8vh;\n        height: 70vh;\n        background: black;\n        display: flex;\n        gap: 10px;\n"
+                },
+                {
+                    "date": 1688681956220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n    .nav-links {\n        position: absolute;\n        right: 0px;\n        top: 8vh;\n-       height: 70vh;\n+       height: 7vh;\n        background: black;\n        display: flex;\n        gap: 10px;\n        width: 70%;\n"
+                },
+                {
+                    "date": 1688682031937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,17 +63,17 @@\n    .nav-links {\n        position: absolute;\n        right: 0px;\n        top: 8vh;\n-       height: 7vh;\n+       height: 70vh;\n        background: black;\n        display: flex;\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n        transform: translateX(100%);\n-       transition: transform 0.5s ease;\n+       transition: transform 0.5s ease-in;\n    }\n    .nav-links li {\n        opacity: 1;\n    }\n"
+                },
+                {
+                    "date": 1688682055285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n        transform: translateX(100%);\n-       transition: transform 0.5s ease-in;\n+       transition: transform 0.5s ease-out;\n    }\n    .nav-links li {\n        opacity: 1;\n    }\n"
+                },
+                {
+                    "date": 1688682287547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n        width: 70%;\n        flex-direction: column;\n        align-items: center;\n        transform: translateX(100%);\n-       transition: transform 0.5s ease-out;\n+       transition: transform 0.5s ease;\n    }\n    .nav-links li {\n        opacity: 1;\n    }\n"
+                },
+                {
+                    "date": 1688682329866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width:30% ;\n+    width: ;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n"
+                },
+                {
+                    "date": 1688682383762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width: ;\n+    width:30% ;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n"
+                },
+                {
+                    "date": 1688712092441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n  .nav-links {\n     display: flex;\n     justify-content: space-around;\n-    width:30% ;\n+    width: 30%;\n     gap: 20px;\n  }\n .nav-links a {\n     color: #ffffff;\n@@ -86,7 +86,7 @@\n        cursor: pointer;\n    }\n   .nav-active {\n    transform: translateX(0%);\n-   margin-top: -00px;\n+   margin-top: 0px;\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688712199568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n        transform: translateX(100%);\n        transition: transform 0.5s ease;\n    }\n    .nav-links li {\n-       opacity: 1;\n+       opacity: ;\n    }\n    .nav-links li :hover {\n        transition: all 5s;\n        color: red;\n"
+                },
+                {
+                    "date": 1688712226475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n        transform: translateX(100%);\n        transition: transform 0.5s ease;\n    }\n    .nav-links li {\n-       opacity: ;\n+       opacity: 0;\n    }\n    .nav-links li :hover {\n        transition: all 5s;\n        color: red;\n"
+                },
+                {
+                    "date": 1688712664724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,18 +55,18 @@\n }\n .burger {\n     display: none;\n }\n-@media only screen and (max-width:550px) {\n+@media only screen and (max-width:767px) {\n     body {\n        overflow-x: hidden;\n     }\n    .nav-links {\n        position: absolute;\n        right: 0px;\n        top: 8vh;\n        height: 70vh;\n-       background: black;\n+       background: rgb(208, 97, 97);\n        display: flex;\n        gap: 10px;\n        width: 70%;\n        flex-direction: column;\n@@ -74,9 +74,9 @@\n        transform: translateX(100%);\n        transition: transform 0.5s ease;\n    }\n    .nav-links li {\n-       opacity: 0;\n+       opacity: 0.7;\n    }\n    .nav-links li :hover {\n        transition: all 5s;\n        color: red;\n"
+                },
+                {
+                    "date": 1688713726519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,7 +86,7 @@\n        cursor: pointer;\n    }\n   .nav-active {\n    transform: translateX(0%);\n-   margin-top: 0px;\n+   margin-top: 100px;\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688713759732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n }\n body {\n     margin: 0;\n     padding: 0;\n+    width: 0;\n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n     background-repeat:no-repeat ;\n }\n"
+                },
+                {
+                    "date": 1688713793482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n }\n body {\n     margin: 0;\n     padding: 0;\n-    width: 0;\n+    width: 100%;\n     background-image: url(loanbytee.jpg);\n     background-size: cover;\n     background-repeat:no-repeat ;\n }\n"
+                },
+                {
+                    "date": 1688713921583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,7 +87,7 @@\n        cursor: pointer;\n    }\n   .nav-active {\n    transform: translateX(0%);\n-   margin-top: 100px;\n+   margin-top: -100px;\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688713943801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,7 +87,7 @@\n        cursor: pointer;\n    }\n   .nav-active {\n    transform: translateX(0%);\n-   margin-top: -100px;\n+   margin-top: -800px;\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688713974280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,7 +87,7 @@\n        cursor: pointer;\n    }\n   .nav-active {\n    transform: translateX(0%);\n-   margin-top: -800px;\n+   margin-top: -600px;\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688713994602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,7 +87,7 @@\n        cursor: pointer;\n    }\n   .nav-active {\n    transform: translateX(0%);\n-   margin-top: -600px;\n+   \n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688714057608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,7 +87,7 @@\n        cursor: pointer;\n    }\n   .nav-active {\n    transform: translateX(0%);\n-   \n+   margin-top: 0px;\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688721097269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n }\n .burger {\n     display: none;\n }\n-@media only screen and (max-width:767px) {\n+@media only screen and (max-width:400px) {\n     body {\n        overflow-x: hidden;\n     }\n    .nav-links {\n"
+                }
+            ],
+            "date": 1688680526486,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\nbody {\n    margin: 0;\n    padding: 0;\n    background-image: url(loanbytee.jpg);\n    background-size: cover;\n    background-repeat:no-repeat ;\n}\nnav {\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    min-height: 8vh;\n    font-family: sans-serif;\n    background: gray;\n}\n.logo {\n    color: black;\n    text-transform: uppercase;\n    letter-spacing: 5px;\n    font-size: 30px;\n    margin-right: 100px;\n    font-family: sans-serif ;\n}\n .nav-links {\n    display: flex;\n    justify-content: space-around;\n    width:30% ;\n    gap: 20px;\n }\n.nav-links a {\n    color: #ffffff;\n     text-decoration: none;\n     letter-spacing: 2px;\n     font-weight: bold;\n     font-size: 17px;\n}\n.nav-links li :hover {\n    transition: all 3s;\n    background: #ffffff;\n    color: blue;\n}\n.nav-links li {\n    list-style: none;\n}\n.burger div {\n    width: 25px;\n    height: 5px;\n    background-color: #ffffff;\n    margin: 5px;\n    margin-left: 90px;\n    transition: all 0.3s ease-in;\n}\n.burger {\n    display: none;\n}\n@media only screen and (max-width:550px) {\n    body {\n       overflow-x: hidden;\n    }\n   .nav-links {\n       position: absolute;\n       right: 0px;\n       top: 6vh;\n       height: 70vh;\n       background: black;\n       display: flex;\n       gap: 10px;\n       width: 50%;\n       flex-direction: column;\n       align-items: center;\n       transform: translateX(100%);\n       transition: transform 0.5s ease-in;\n   }\n   .nav-links li {\n       opacity: 1;\n   }\n   .nav-links li :hover {\n       transition: all 5s;\n       color: red;\n   }\n   .burger {\n       display: block;\n       cursor: pointer;\n   }\n  .nav-active {\n   transform: translateX(0%);\n  }\n}"
+        }
+    ]
+}

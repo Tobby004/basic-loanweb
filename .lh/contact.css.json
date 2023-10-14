@@ -1,0 +1,90 @@
+{
+    "sourceFile": "contact.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1688576701527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688576770519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n }\n .cob-1 {\n     margin-top: 20px;\n     height: 200px;\n-    width: 300px;\n+    width: 250px;\n     background: white;\n     border-radius: 9px;\n     border: solid 0.5px blue;\n }\n@@ -58,7 +58,8 @@\n \n @media only screen and (max-width: 400px) {\n     .contact-box {\n         display: block;\n+        width: max-content;\n     }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688657989396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,89 @@\n .cob-3 a {\n     margin-left: 60px;\n }\n \n-@media only screen and (max-width: 400px) {\n+.footer{\n+    background: rgb(126, 120, 129);\n+    width: 100%;\n+    padding: 20px 30px 20px;\n+}\n+.socialicon {\n+    display: flex;\n+    justify-content: center;\n+}\n+.socialicon a {\n+    text-decoration: none;\n+    padding: 10px;\n+    margin: 10px;\n+    background: #ffffff;\n+    border-radius: 40%;\n+}\n+.socialicon a i {\n+    font-size: 2em;\n+    color: black;\n+}\n+.footernav ul {\n+ display: flex;\n+ justify-content: center;\n+ list-style: none;\n+}\n+.footernav ul li a{\n+ color: #ffffff;\n+ margin: 20px;\n+ text-decoration: none;\n+ font-size: 1.3em;\n+}\n+.footerbottom {\n+    background-color: black;\n+    padding: 10px;\n+    text-align: center;\n+}\n+.footerbottom p {\n+    color:white\n+}\n+\n+\n+@media only screen and (max-width:550px) {\n+     body {\n+        overflow: hidden;\n+     }\n+    .nav-links {\n+        position: absolute;\n+        right: 0px;\n+        top: 5vh;\n+        height: 70vh;\n+        background: black;\n+        display: flex;\n+        gap: 10px;\n+        width: 50%;\n+        flex-direction: column;\n+        align-items: center;\n+        transform: translateX(100%);\n+        transition: transform 0.5s ease-in;\n+    }\n+    .nav-links li {\n+        opacity: 1;\n+    }\n+    .nav-links li :hover {\n+        transition: all 5s;\n+        color: red;\n+    }\n+    .burger {\n+        display: block;\n+        cursor: pointer;\n+    }\n+   .nav-active {\n+    transform: translateX(0%);\n+   }\n+   .footernav {\n+    flex-direction: column;\n+   }\n+   .footernav ul li {\n+    width: 100%;\n+    text-align: center;\n+    margin: 1opx;\n+   } \n     .contact-box {\n         display: block;\n         width: max-content;\n     }\n"
+                },
+                {
+                    "date": 1688660422606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,55 @@\n * {\n     box-sizing: border-box;\n }\n+nav {\n+    display: flex;\n+    justify-content: space-around;\n+    align-items: center;\n+    min-height: 8vh;\n+    font-family: sans-serif;\n+    background: gray;\n+}\n+.logo {\n+    color: black;\n+    text-transform: uppercase;\n+    letter-spacing: 5px;\n+    font-size: 30px;\n+    margin-right: 100px;\n+    font-family: sans-serif ;\n+}\n+ .nav-links {\n+    display: flex;\n+    justify-content: space-around;\n+    width: 0;\n+    gap: 20px;\n+ }\n+.nav-links a {\n+    color: #ffffff;\n+     text-decoration: none;\n+     letter-spacing: 2px;\n+     font-weight: bold;\n+     font-size: 17px;\n+}\n+.nav-links li :hover {\n+    transition: all 3s;\n+    background: #ffffff;\n+    color: blue;\n+}\n+.nav-links li {\n+    list-style: none;\n+}\n+.burger div {\n+    width: 25px;\n+    height: 5px;\n+    background-color: #ffffff;\n+    margin: 5px;\n+    transition: all 0.3s ease-in;\n+}\n+.burger {\n+    display: none;\n+}\n+\n .contact-box{\n     display:flex ;\n     gap: 20px;\n     justify-content: space-between;\n"
+                },
+                {
+                    "date": 1688661543486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,14 +146,14 @@\n \n \n @media only screen and (max-width:550px) {\n      body {\n-        overflow: hidden;\n+        overflow-x: hidden;\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 5vh;\n+        top: 3vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n"
+                },
+                {
+                    "date": 1688677891074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,9 +151,9 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 3vh;\n+        top: 6vh;\n         height: 70vh;\n         background: black;\n         display: flex;\n         gap: 10px;\n"
+                },
+                {
+                    "date": 1688678480410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,9 +144,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:550px) {\n+@media only screen and (max-width:850px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688678540876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,8 +104,9 @@\n     margin-left: 60px;\n }\n \n .footer{\n+    margin-top: 100px;\n     background: rgb(126, 120, 129);\n     width: 100%;\n     padding: 20px 30px 20px;\n }\n"
+                },
+                {
+                    "date": 1688678828732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n     margin-left: 60px;\n }\n \n .footer{\n-    margin-top: 100px;\n+    margin-top: 180px;\n     background: rgb(126, 120, 129);\n     width: 100%;\n     padding: 20px 30px 20px;\n }\n@@ -189,6 +189,8 @@\n     .contact-box {\n         display: block;\n         width: max-content;\n     }\n-\n+    .footer {\n+        margin-top: 300px;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688679221555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,9 +145,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:850px) {\n+@media only screen and (max-width:550px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688713537006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,9 +145,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:550px) {\n+@media only screen and (max-width:767px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688714373452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -152,14 +152,14 @@\n      }\n     .nav-links {\n         position: absolute;\n         right: 0px;\n-        top: 6vh;\n+        top: 8vh;\n         height: 70vh;\n-        background: black;\n+        background: gray;\n         display: flex;\n         gap: 10px;\n-        width: 50%;\n+        width: 70%;\n         flex-direction: column;\n         align-items: center;\n         transform: translateX(100%);\n         transition: transform 0.5s ease-in;\n@@ -176,8 +176,9 @@\n         cursor: pointer;\n     }\n    .nav-active {\n     transform: translateX(0%);\n+    margin-top: 0px;\n    }\n    .footernav {\n     flex-direction: column;\n    }\n"
+                },
+                {
+                    "date": 1688721097287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,9 +145,9 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:767px) {\n+@media only screen and (max-width:400px) {\n      body {\n         overflow-x: hidden;\n      }\n     .nav-links {\n"
+                },
+                {
+                    "date": 1688730469653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,55 +1,53 @@\n * {\n     box-sizing: border-box;\n }\n-nav {\n+header {\n+    background-color: gray;\n+}\n+li {\n+    list-style: none;\n+}\n+a {\n+    color: white;\n+    text-decoration: none;\n+}\n+.navbar {\n+    min-height: 70px;\n     display: flex;\n-    justify-content: space-around;\n+    justify-content: space-between;\n     align-items: center;\n-    min-height: 8vh;\n-    font-family: sans-serif;\n-    background: gray;\n+    padding: 0 24px;\n }\n-.logo {\n-    color: black;\n-    text-transform: uppercase;\n-    letter-spacing: 5px;\n-    font-size: 30px;\n-    margin-right: 100px;\n-    font-family: sans-serif ;\n-}\n- .nav-links {\n+.nav-menu {\n     display: flex;\n-    justify-content: space-around;\n-    width: 0;\n-    gap: 20px;\n- }\n-.nav-links a {\n-    color: #ffffff;\n-     text-decoration: none;\n-     letter-spacing: 2px;\n-     font-weight: bold;\n-     font-size: 17px;\n+    justify-content: space-between;\n+    align-items: center;\n+    gap: 60px;\n+    letter-spacing: 3px;\n }\n-.nav-links li :hover {\n-    transition: all 3s;\n-    background: #ffffff;\n-    color: blue;\n+.logo {\n+    font-size: 2rem;\n }\n-.nav-links li {\n-    list-style: none;\n+.nav-link{\n+    transition: 0.7s ease;\n }\n-.burger div {\n-    width: 25px;\n-    height: 5px;\n-    background-color: #ffffff;\n-    margin: 5px;\n-    transition: all 0.3s ease-in;\n+.nav-link:hover {\n+    color: blueviolet;\n }\n .burger {\n     display: none;\n+    cursor: pointer;\n }\n-\n+.bar{\n+    display: block;\n+    width: 25px;\n+    height: 3px;\n+    margin: 5px auto;\n+    -webkit-transition: all 0.3s ease-in-out;\n+    transition: all 0.3s ease-in-out;\n+    background: white;\n+}\n .contact-box{\n     display:flex ;\n     gap: 20px;\n     justify-content: space-between;\n@@ -145,41 +143,42 @@\n     color:white\n }\n \n \n-@media only screen and (max-width:400px) {\n-     body {\n-        overflow-x: hidden;\n-     }\n-    .nav-links {\n-        position: absolute;\n-        right: 0px;\n-        top: 8vh;\n-        height: 70vh;\n-        background: gray;\n-        display: flex;\n-        gap: 10px;\n-        width: 70%;\n+@media(max-width:767px) {\n+    body {\n+        width: min-content;\n+    }\n+    .burger {\n+        display: block;\n+    }\n+    .burger.active .bar:nth-child(2) {\n+        opacity: 0;\n+    }\n+    .burger.active .bar:nth-child(1) {\n+       transform: translateY(8px)rotate(45deg);\n+    }\n+    .burger.active .bar:nth-child(3) {\n+        transform: translateY(-8px) rotate(-45deg);\n+    }\n+    .nav-menu {\n+        position:fixed;\n+        left: -100%;\n+        top: 7.5vh;\n+        gap: 0;\n         flex-direction: column;\n-        align-items: center;\n-        transform: translateX(100%);\n-        transition: transform 0.5s ease-in;\n+        background-color: gray;\n+        width: 80%;\n+        text-align: center;\n+        transition: 0.3s;\n     }\n-    .nav-links li {\n-        opacity: 1;\n+    .nav-item {\n+        margin: 16px 0;\n     }\n-    .nav-links li :hover {\n-        transition: all 5s;\n-        color: red;\n+    .nav-menu.active {\n+        left: 0;\n     }\n-    .burger {\n-        display: block;\n-        cursor: pointer;\n-    }\n-   .nav-active {\n-    transform: translateX(0%);\n-    margin-top: 0px;\n-   }\n+\n    .footernav {\n     flex-direction: column;\n    }\n    .footernav ul li {\n"
+                },
+                {
+                    "date": 1688732125731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -162,9 +162,9 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 7.5vh;\n+        top: 7vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n         width: 80%;\n"
+                },
+                {
+                    "date": 1688732283380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -162,9 +162,9 @@\n     }\n     .nav-menu {\n         position:fixed;\n         left: -100%;\n-        top: 7vh;\n+        top: 5vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n         width: 80%;\n"
+                },
+                {
+                    "date": 1688739236534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,11 +144,9 @@\n }\n \n \n @media(max-width:767px) {\n-    body {\n-        width: min-content;\n-    }\n+  \n     .burger {\n         display: block;\n     }\n     .burger.active .bar:nth-child(2) {\n@@ -166,9 +164,9 @@\n         top: 5vh;\n         gap: 0;\n         flex-direction: column;\n         background-color: gray;\n-        width: 80%;\n+        width: 100%;\n         text-align: center;\n         transition: 0.3s;\n     }\n     .nav-item {\n"
+                },
+                {
+                    "date": 1688744864399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -178,10 +178,10 @@\n \n    .footernav {\n     flex-direction: column;\n    }\n-   .footernav ul li {\n-    width: 100%;\n+   .footernav ul li a{\n+    width: 40%;\n     text-align: center;\n     margin: 1opx;\n    } \n     .contact-box {\n"
+                },
+                {
+                    "date": 1688789616542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n * {\n     box-sizing: border-box;\n }\n header {\n-    background-color: gray;\n+    background-color: blue;\n }\n li {\n     list-style: none;\n }\n"
+                }
+            ],
+            "date": 1688576701527,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\n.contact-box{\n    display:flex ;\n    gap: 20px;\n    justify-content: space-between;\n    margin: auto;\n    height: 400px;\n    width: 690px;\n    background: #ffffff;\n}\n.contact-box h3 {\n    text-align: center;\n}\n.contact-box p {\n    text-align: center;\n}\n.cob-1 {\n    margin-top: 20px;\n    height: 200px;\n    width: 300px;\n    background: white;\n    border-radius: 9px;\n    border: solid 0.5px blue;\n}\n.cob-2 {\n    margin-top: 20px;\n    height: 200px;\n    width: 250px;\n    background: white;\n    border-radius: 9px;\n    border: solid 0.5px blue;\n}\n.cob-3 {\n    margin-top: 20px;\n    height: 200px;\n    width: 250px;\n    background: white;\n    border-radius: 9px;\n    border: solid 0.5px blue;\n}\n.contact-box h5 {\n    text-align: center;\n}\n.contact-box a {\n    text-decoration: none;\n}\n.cob-1 a {\nmargin-left: 100px;\n}\n.cob-2 a {\n    margin-left: 60px;\n}\n.cob-3 a {\n    margin-left: 60px;\n}\n\n@media only screen and (max-width: 400px) {\n    .contact-box {\n        display: block;\n    }\n\n}"
+        }
+    ]
+}
